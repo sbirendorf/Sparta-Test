@@ -677,8 +677,8 @@
 	<td></td>
 </tr>
 <tr>
-	<td>clickAndWait</td>
-	<td>id=dhtml_menu-54495</td>
+	<td>open</td>
+	<td>/node/add/fact-method</td>
 	<td></td>
 </tr>
 <tr>
@@ -707,8 +707,8 @@
 	<td></td>
 </tr>
 <tr>
-	<td>clickAndWait</td>
-	<td>id=dhtml_menu-54495</td>
+	<td>open</td>
+	<td>/node/add/fact-method</td>
 	<td></td>
 </tr>
 <tr>
