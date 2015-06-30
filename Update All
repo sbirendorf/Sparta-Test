@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://penn.spartatrac.com/" />
+<title>Update Athlete A</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Update Athlete A</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/content/baseball-test-b</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-title</td>
+	<td>Athlete A</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=edit-submit-athlete-search</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=div.view_sport</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Edit User</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Edit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-field-pr-body-weight-0-value</td>
+	<td>175</td>
+</tr>
+<tr>
+	<td>removeSelection</td>
+	<td>id=edit-taxonomy-3</td>
+	<td>label=Baseball</td>
+</tr>
+<tr>
+	<td>addSelection</td>
+	<td>id=edit-taxonomy-3</td>
+	<td>label=-Catcher</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=div.node-form &gt; #edit-submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/content/athlete</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-title</td>
+	<td>Athlete B</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=edit-submit-athlete-search</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=div.view_sport</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Edit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-field-pr-body-weight-0-value</td>
+	<td>182</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-field-pr-cell-number-0-value</td>
+	<td>123-321-3212</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=div.node-form &gt; #edit-submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/content/athlete-b</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-title</td>
+	<td>Strength Coach AAA</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=edit-submit-athlete-search</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=div.view_sport</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Edit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-field-pr-cell-number-0-value</td>
+	<td>343-223-2342</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=div.node-form &gt; #edit-submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/content/strength-coach</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-title</td>
+	<td>Sport Coach AAA</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=edit-submit-athlete-search</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=div.view_sport</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Edit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-field-pr-cell-number-0-value</td>
+	<td>343-545-6655</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=div.node-form &gt; #edit-submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/content/atc</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-title</td>
+	<td>ATC AAA</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=edit-submit-athlete-search</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=div.view_sport</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Edit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-field-pr-body-weight-0-value</td>
+	<td>198</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-field-pr-cell-number-0-value</td>
+	<td>213-432-3243</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=div.node-form &gt; #edit-submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/athlete_listing_a</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=dhtml_menu-54165</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>css=#views-exposed-form-manage-groups-page-1 &gt; div &gt; div.views-exposed-form &gt; div.views-exposed-widgets.clear-block &gt; div.views-exposed-widget.views-widget-filter-title &gt; div.views-widget &gt; #edit-title-wrapper &gt; #edit-title</td>
+	<td>Group A</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=edit-submit-manage-groups</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=i.glyphicon.icon-edit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>addSelection</td>
+	<td>id=field_gr_athlete_uids</td>
+	<td>label=Athlete A - aathlete</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=#field_gr_athlete_uids &gt; a</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=div.node-form &gt; #edit-submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/athlete_listing_a</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=dhtml_menu-54165</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>css=#views-exposed-form-manage-groups-page-1 &gt; div &gt; div.views-exposed-form &gt; div.views-exposed-widgets.clear-block &gt; div.views-exposed-widget.views-widget-filter-title &gt; div.views-widget &gt; #edit-title-wrapper &gt; #edit-title</td>
+	<td>Baseball Test B</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=edit-submit-manage-groups</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=i.glyphicon.icon-edit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>addSelection</td>
+	<td>name=field_gr_athlete_uids[uid][]</td>
+	<td>label=Athlete A - aathlete</td>
+</tr>
+<tr>
+	<td>removeSelection</td>
+	<td>name=field_gr_athlete_uids[uid][]</td>
+	<td>label=Athlete B - bathlete</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//a[contains(text(),'Remove')])[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=div.node-form &gt; #edit-submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/athlete_listing_a</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=dhtml_menu-54478</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=tr.even &gt; td.views-field.views-field-edit-node &gt; a</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-group-mf-thresholds-0-field-mf-minimum-value</td>
+	<td>15</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-group-mf-thresholds-0-field-mf-highlight-min-value</td>
+	<td>#ea49c6</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-group-mf-thresholds-0-field-mf-highlight-max-value</td>
+	<td>#35d0e2</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-group-mf-thresholds-0-field-mf-highlight-zone-value</td>
+	<td>#da2fe5</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=div.node-form &gt; #edit-submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/athlete_listing_a</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=dhtml_menu-54478</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>xpath=(//a[contains(text(),'edit')])[3]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-group-mf-thresholds-0-field-mf-minimum-value</td>
+	<td>10</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-group-mf-thresholds-0-field-mf-highlight-min-value</td>
+	<td>#406b92</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-group-mf-thresholds-0-field-mf-highlight-max-value</td>
+	<td>#792b95</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-group-mf-thresholds-0-field-mf-highlight-zone-value</td>
+	<td>#ca3691</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=div.node-form &gt; #edit-submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/athlete_listing_a</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=dhtml_menu-54478</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>xpath=(//a[contains(text(),'edit')])[4]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-field-mf-day-offset-0-value</td>
+	<td>14</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=div.node-form &gt; #edit-submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/athlete_listing_a</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=dhtml_menu-55256</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=i.glyphicon.icon-edit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>addSelection</td>
+	<td>id=field_dashboard_team_filter</td>
+	<td>label=Baseball Test B</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Add</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=div.node-form &gt; #edit-submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/athlete_listing_a</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=dhtml_menu-92599</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Test Boundary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Edit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-field-bo-band-1-color-0-value</td>
+	<td>#060606</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=div.node-form &gt; #edit-submit</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>
+
