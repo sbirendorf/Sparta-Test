@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head profile="http://selenium-ide.openqa.org/profiles/test-case">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<link rel="selenium.base" href="http://academia.spartascience.com/" />
+<link rel="selenium.base" href="http://penn.spartatrac.com/" />
 <title>Penn Login</title>
 </head>
 <body>
@@ -672,23 +672,63 @@
 	<td></td>
 </tr>
 <tr>
-	<td>clickAndWait</td>
-	<td>id=dhtml_menu-54488</td>
+	<td>open</td>
+	<td>/athlete_listing_a</td>
 	<td></td>
 </tr>
 <tr>
-	<td>type</td>
-	<td>id=edit-file</td>
-	<td>/Users/michellealbright/Desktop/CSVtest.csv</td>
+	<td>clickAndWait</td>
+	<td>id=dhtml_menu-54495</td>
+	<td></td>
 </tr>
 <tr>
 	<td>select</td>
-	<td>id=edit-source</td>
-	<td>label=SProfile 1</td>
+	<td>id=edit-field-fc-athlete-id-uid-uid</td>
+	<td>label=Athlete A - aathlete</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-field-fc-value-0-value</td>
+	<td>14</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=edit-field-fc-noderef-nid-nid</td>
+	<td>label=Minutes Played</td>
 </tr>
 <tr>
 	<td>clickAndWait</td>
-	<td>css=#msparta-facts-file-upload &gt; div &gt; #edit-submit</td>
+	<td>css=div.node-form &gt; #edit-submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/athlete_listing_a</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=dhtml_menu-54495</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=edit-field-fc-athlete-id-uid-uid</td>
+	<td>label=Athlete B - bathlete</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-field-fc-value-0-value</td>
+	<td>10</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=edit-field-fc-noderef-nid-nid</td>
+	<td>label=Minutes Played</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=div.node-form &gt; #edit-submit</td>
 	<td></td>
 </tr>
 <tr>
