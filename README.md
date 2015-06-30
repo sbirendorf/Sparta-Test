@@ -1,2 +1,2 @@
-# misparta_test
+# Sparta Test
 Test files for misparta
