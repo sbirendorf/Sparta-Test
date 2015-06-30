@@ -11,6 +11,7 @@
 <thead>
 <tr><td rowspan="1" colspan="3">New Test</td></tr>
 </thead><tbody>
+<!--Read Athlete A-->
 <tr>
 	<td>open</td>
 	<td>/athlete_listing_a</td>
@@ -81,6 +82,7 @@
 	<td>Active</td>
 	<td></td>
 </tr>
+<!--Read Athlete B-->
 <tr>
 	<td>open</td>
 	<td>/athlete_listing_a</td>
@@ -151,6 +153,7 @@
 	<td>Active</td>
 	<td></td>
 </tr>
+<!--Read Strength Coach-->
 <tr>
 	<td>open</td>
 	<td>/athlete_listing_a</td>
@@ -216,6 +219,7 @@
 	<td>Active</td>
 	<td></td>
 </tr>
+<!--Read Sport Coach-->
 <tr>
 	<td>open</td>
 	<td>/athlete_listing_a</td>
@@ -271,6 +275,7 @@
 	<td>Active</td>
 	<td></td>
 </tr>
+<!--Read ATC-->
 <tr>
 	<td>open</td>
 	<td>/athlete_listing_a</td>
@@ -331,6 +336,7 @@
 	<td>Active</td>
 	<td></td>
 </tr>
+<!--Read Empty MetaFact-->
 <tr>
 	<td>open</td>
 	<td>/athlete_listing_a</td>
@@ -356,6 +362,7 @@
 	<td>AAAAAAEmpty</td>
 	<td></td>
 </tr>
+<!--Read Thresholds Team-->
 <tr>
 	<td>open</td>
 	<td>/athlete_listing_a</td>
@@ -396,6 +403,7 @@
 	<td>Baseball Test B</td>
 	<td></td>
 </tr>
+<!--Read Threshold Individual-->
 <tr>
 	<td>open</td>
 	<td>/athlete_listing_a</td>
@@ -466,6 +474,7 @@
 	<td>#3e9c37</td>
 	<td></td>
 </tr>
+<!--Read Calculated MetaFact-->
 <tr>
 	<td>open</td>
 	<td>/athlete_listing_a</td>
@@ -516,6 +525,7 @@
 	<td>21</td>
 	<td></td>
 </tr>
+<!--Read Dashboard A-->
 <tr>
 	<td>open</td>
 	<td>/athlete_listing_a</td>
@@ -591,6 +601,7 @@
 	<td>link=Switch back</td>
 	<td></td>
 </tr>
+<!--Read Group A-->
 <tr>
 	<td>open</td>
 	<td>/athlete_listing_a</td>
@@ -641,6 +652,7 @@
 	<td>bathlete</td>
 	<td></td>
 </tr>
+<!--Read Group B-->
 <tr>
 	<td>open</td>
 	<td>/athlete_listing_a</td>
@@ -686,6 +698,7 @@
 	<td>bathlete</td>
 	<td></td>
 </tr>
+<!--Read Test Boundary-->
 <tr>
 	<td>open</td>
 	<td>/athlete_listing_a</td>
@@ -726,6 +739,7 @@
 	<td>#ec0a0a</td>
 	<td></td>
 </tr>
+<!--Read Facts-->
 <tr>
 	<td>open</td>
 	<td>/manage_facts_by_ath_vbo</td>

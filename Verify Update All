@@ -11,6 +11,7 @@
 <thead>
 <tr><td rowspan="1" colspan="3">New Test</td></tr>
 </thead><tbody>
+<!--Verify Athlete A-->
 <tr>
 	<td>open</td>
 	<td>/athlete_listing_a</td>
@@ -71,6 +72,7 @@
 	<td>Catcher</td>
 	<td></td>
 </tr>
+<!--Verify Athlete B-->
 <tr>
 	<td>open</td>
 	<td>/athlete_listing_a</td>
@@ -136,6 +138,7 @@
 	<td>123-321-3212</td>
 	<td></td>
 </tr>
+<!--Verify Strength Coach-->
 <tr>
 	<td>open</td>
 	<td>/athlete_listing_a</td>
@@ -196,6 +199,7 @@
 	<td>Baseball</td>
 	<td></td>
 </tr>
+<!--Verify Sport Coach-->
 <tr>
 	<td>open</td>
 	<td>/athlete_listing_a</td>
@@ -256,6 +260,7 @@
 	<td>Baseball</td>
 	<td></td>
 </tr>
+<!--Verify ATC-->
 <tr>
 	<td>open</td>
 	<td>/athlete_listing_a</td>
@@ -326,6 +331,7 @@
 	<td>/content/atc-aaa</td>
 	<td></td>
 </tr>
+<!--verify Group A-->
 <tr>
 	<td>clickAndWait</td>
 	<td>id=dhtml_menu-54165</td>
@@ -396,6 +402,7 @@
 	<td>/content/atc-aaa</td>
 	<td></td>
 </tr>
+<!--Verify Group B-->
 <tr>
 	<td>clickAndWait</td>
 	<td>id=dhtml_menu-54165</td>
@@ -456,6 +463,7 @@
 	<td>/content/baseball-test-b</td>
 	<td></td>
 </tr>
+<!--Verify Thresholds Team-->
 <tr>
 	<td>clickAndWait</td>
 	<td>id=dhtml_menu-54478</td>
@@ -531,6 +539,7 @@
 	<td>/content/aaaaathresholds-team</td>
 	<td></td>
 </tr>
+<!--Verify Threshold Individual-->
 <tr>
 	<td>clickAndWait</td>
 	<td>id=dhtml_menu-54478</td>
@@ -601,6 +610,7 @@
 	<td>/content/aaaathreshold-individual</td>
 	<td></td>
 </tr>
+<!--Verify Calculated Fact-->
 <tr>
 	<td>clickAndWait</td>
 	<td>id=dhtml_menu-54478</td>
@@ -646,6 +656,7 @@
 	<td>/content/aaacalculated</td>
 	<td></td>
 </tr>
+<!--Verify Dashboard A-->
 <tr>
 	<td>clickAndWait</td>
 	<td>id=dhtml_menu-55256</td>
@@ -691,6 +702,7 @@
 	<td>/content/dashboard</td>
 	<td></td>
 </tr>
+<!--Verify Test Boundary-->
 <tr>
 	<td>clickAndWait</td>
 	<td>id=dhtml_menu-92599</td>
