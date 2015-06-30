@@ -1,0 +1,791 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://academia.spartascience.com/" />
+<title>Penn Login</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Penn Login</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/user/login</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-name</td>
+	<td>spartatest</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-pass</td>
+	<td>sparta165a</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=edit-submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/athlete_listing_a</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=dhtml_menu-54181</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-name</td>
+	<td>aathlete</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-mail</td>
+	<td>athletea@spartascience.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-pass-pass1</td>
+	<td>sparta165a</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-pass-pass2</td>
+	<td>sparta165a</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=edit-roles-5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-title</td>
+	<td>Athlete A</td>
+</tr>
+<tr>
+	<td>addSelection</td>
+	<td>id=edit-taxonomy-3</td>
+	<td>label=Baseball</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=edit-field-pr-gender-value-Male</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=edit-field-pr-level-value</td>
+	<td>label=College</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=#user-register &gt; div &gt; #edit-submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/athlete_listing_a</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=dhtml_menu-54181</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-name</td>
+	<td>bathlete</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-mail</td>
+	<td>bathlete@spartascience.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-pass-pass1</td>
+	<td>sparta165a</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-pass-pass2</td>
+	<td>sparta165a</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=edit-roles-5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-title</td>
+	<td>Athlete B</td>
+</tr>
+<tr>
+	<td>addSelection</td>
+	<td>id=edit-taxonomy-3</td>
+	<td>label=Baseball</td>
+</tr>
+<tr>
+	<td>removeSelection</td>
+	<td>id=edit-taxonomy-3</td>
+	<td>label=Baseball</td>
+</tr>
+<tr>
+	<td>addSelection</td>
+	<td>id=edit-taxonomy-3</td>
+	<td>label=-OF</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=edit-field-pr-gender-value-Male</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=edit-field-pr-level-value</td>
+	<td>label=College</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=#user-register &gt; div &gt; #edit-submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/admin/user/user/create</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=dhtml_menu-54181</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-name</td>
+	<td>strengthcoacha</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-mail</td>
+	<td>strengthcoacha@spartascience.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-pass-pass1</td>
+	<td>sparta165a</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-pass-pass2</td>
+	<td>sparta165a</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=edit-roles-3</td>
+	<td></td>
+</tr>
+<tr>
+	<td>addSelection</td>
+	<td>id=edit-taxonomy-3</td>
+	<td>label=Baseball</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-title</td>
+	<td>Strength Coach AAA</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=edit-field-pr-gender-value-Male</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=edit-field-pr-level-value</td>
+	<td>label=College</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=#user-register &gt; div &gt; #edit-submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/athlete_listing_a</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=dhtml_menu-54181</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-name</td>
+	<td>Sport Coach A</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-mail</td>
+	<td>sport@sparta.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-pass-pass1</td>
+	<td>sparta165a</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-pass-pass2</td>
+	<td>sparta165a</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=edit-roles-9</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-title</td>
+	<td>Sport Coach AAA</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-name</td>
+	<td>sportcoacha</td>
+</tr>
+<tr>
+	<td>addSelection</td>
+	<td>id=edit-taxonomy-3</td>
+	<td>label=Baseball</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=edit-field-pr-gender-value-Male</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=edit-field-pr-level-value</td>
+	<td>label=College</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=#user-register &gt; div &gt; #edit-submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/athlete_listing_a</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=dhtml_menu-54181</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-name</td>
+	<td>atca</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-mail</td>
+	<td>atca@sparta.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-pass-pass1</td>
+	<td>sparta165a</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-pass-pass2</td>
+	<td>sparta165a</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=edit-roles-6</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-title</td>
+	<td>ATC AAA</td>
+</tr>
+<tr>
+	<td>addSelection</td>
+	<td>id=edit-taxonomy-3</td>
+	<td>label=Baseball</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=edit-field-pr-gender-value-Male</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=edit-field-pr-level-value</td>
+	<td>label=College</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=#user-register &gt; div &gt; #edit-submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/team_roster_c</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=dhtml_menu-54155</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-title</td>
+	<td>Group A</td>
+</tr>
+<tr>
+	<td>addSelection</td>
+	<td>id=field_gr_coach_uids</td>
+	<td>label=Strength Coach AAA - strengthcoacha</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Add</td>
+	<td></td>
+</tr>
+<tr>
+	<td>addSelection</td>
+	<td>id=field_gr_coach_uids</td>
+	<td>label=Sport Coach AAA - sportcoacha</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Add</td>
+	<td></td>
+</tr>
+<tr>
+	<td>addSelection</td>
+	<td>id=field_gr_athlete_uids</td>
+	<td>label=Athlete B - bathlete</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=#field_gr_athlete_uids &gt; a</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=div.node-form &gt; #edit-submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/content/baseball-test</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=dhtml_menu-54155</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-title</td>
+	<td>Baseball Test B</td>
+</tr>
+<tr>
+	<td>addSelection</td>
+	<td>id=field_gr_coach_uids</td>
+	<td>label=ATC AAA - atca</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Add</td>
+	<td></td>
+</tr>
+<tr>
+	<td>addSelection</td>
+	<td>id=field_gr_athlete_uids</td>
+	<td>label=Athlete A - aathlete</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=#field_gr_athlete_uids &gt; a</td>
+	<td></td>
+</tr>
+<tr>
+	<td>addSelection</td>
+	<td>id=field_gr_athlete_uids</td>
+	<td>label=Athlete B - bathlete</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=#field_gr_athlete_uids &gt; a</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=div.node-form &gt; #edit-submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/athlete_status_summary?title=</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=dhtml_menu-54477</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-title</td>
+	<td>AAAAAAEmpty</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=div.node-form &gt; #edit-submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/content/empty</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=dhtml_menu-54477</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-title</td>
+	<td>AAAAAThresholds Team</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=edit-field-mf-unit-value</td>
+	<td>label=Number</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=edit-group-mf-thresholds-0-field-mf-team-grp-nref-nid-nid</td>
+	<td>label=Group Name: Baseball Test B - Team Managers: atca - Athletes : aathletebathlete Markup:</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-group-mf-thresholds-0-field-mf-minimum-value</td>
+	<td>10</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-group-mf-thresholds-0-field-mf-maximum-value</td>
+	<td>50</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-group-mf-thresholds-0-field-mf-zone-value-value</td>
+	<td>30</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-group-mf-thresholds-0-field-mf-zone-variance-value</td>
+	<td>30</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-group-mf-thresholds-0-field-mf-highlight-min-value</td>
+	<td>#f11813</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-group-mf-thresholds-0-field-mf-highlight-max-value</td>
+	<td>#f5f20e</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-group-mf-thresholds-0-field-mf-highlight-zone-value</td>
+	<td>#52f246</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=div.node-form &gt; #edit-submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/athlete_listing_a</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=dhtml_menu-54477</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-title</td>
+	<td>AAAAThreshold Individual</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=edit-field-mf-unit-value</td>
+	<td>label=Number</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=edit-group-mf-thresholds-0-field-mf-athlete-id-uid-uid</td>
+	<td>label=Athlete A - aathlete</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-group-mf-thresholds-0-field-mf-minimum-value</td>
+	<td>15</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-group-mf-thresholds-0-field-mf-maximum-value</td>
+	<td>45</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-group-mf-thresholds-0-field-mf-zone-value-value</td>
+	<td>30</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-group-mf-thresholds-0-field-mf-zone-variance-value</td>
+	<td>15</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-group-mf-thresholds-0-field-mf-highlight-min-value</td>
+	<td>#924240</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-group-mf-thresholds-0-field-mf-highlight-max-value</td>
+	<td>#d5d34c</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-group-mf-thresholds-0-field-mf-highlight-zone-value</td>
+	<td>#3e9c37</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=div.node-form &gt; #edit-submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/athlete_listing_a</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=dhtml_menu-54477</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-title</td>
+	<td>AAACalculated</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=edit-field-mf-type-operation-value</td>
+	<td>label=SUM</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=edit-field-mf-fact-operate-nid-nid</td>
+	<td>label=Minutes Played</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-field-mf-day-offset-0-value</td>
+	<td>21</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=div.node-form &gt; #edit-submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/athlete_listing_a</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=dhtml_menu-54493</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-title</td>
+	<td>SProfile 1</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-field-fs-athlete-col-num-0-value</td>
+	<td>0</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-field-fs-date-col-num-0-value</td>
+	<td>1</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=edit-group-meta-fact-grp-0-field-fs-meta-fact-nref-nid-nid</td>
+	<td>label=Minutes Played</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-group-meta-fact-grp-0-field-fs-meta-fact-col-num-value</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=div.node-form &gt; #edit-submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=dhtml_menu-54488</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-file</td>
+	<td>/Users/michellealbright/Desktop/CSVtest.csv</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=edit-source</td>
+	<td>label=SProfile 1</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=#msparta-facts-file-upload &gt; div &gt; #edit-submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/node/add/dashboard-layout</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-title</td>
+	<td>Dashboard A</td>
+</tr>
+<tr>
+	<td>removeSelection</td>
+	<td>id=edit-field-dashboard-layout-role-id-rid-rid</td>
+	<td>label=authenticated user</td>
+</tr>
+<tr>
+	<td>addSelection</td>
+	<td>id=edit-field-dashboard-layout-role-id-rid-rid</td>
+	<td>label=Sport Coach</td>
+</tr>
+<tr>
+	<td>addSelection</td>
+	<td>id=field_dashboard_team_filter</td>
+	<td>label=Group A</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Add</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=edit-group-dashboard-layout-gr-0-field-dashboard-layout-unique-value</td>
+	<td>label=Athlete Name</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-group-dashboard-layout-gr-0-field-dashboard-layout-name-value</td>
+	<td>Name</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=div.node-form &gt; #edit-submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/node/add/boundary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-title</td>
+	<td>Test Boundary</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=edit-field-bo-condition-value</td>
+	<td>label=STD-Population-Individual</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-field-bo-band-1-0-value</td>
+	<td>5</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.picker_button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-field-bo-band-2-0-value</td>
+	<td>10</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>edit-field-bo-band-2-color-0-value</td>
+	<td>#eaec43</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>edit-field-bo-band-3-color-0-value</td>
+	<td>#ec0a0a</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-field-bo-band-1-color-0-value</td>
+	<td>#52ee2e</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=div.node-form &gt; #edit-submit</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>
