@@ -365,6 +365,16 @@
 </tr>
 <tr>
 	<td>addSelection</td>
+	<td>id=field_gr_coach_uids</td>
+	<td>label=spartatest - spartatest</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Add</td>
+	<td></td>
+</tr>
+<tr>
+	<td>addSelection</td>
 	<td>id=field_gr_athlete_uids</td>
 	<td>label=Athlete B - bathlete</td>
 </tr>
@@ -601,7 +611,7 @@
 <tr>
 	<td>select</td>
 	<td>id=edit-field-mf-fact-operate-nid-nid</td>
-	<td>label=Minutes Played</td>
+	<td>label=AAAAThreshold Individual</td>
 </tr>
 <tr>
 	<td>type</td>
@@ -654,38 +664,7 @@
 	<td>css=div.node-form &gt; #edit-submit</td>
 	<td></td>
 </tr>
-<!--Create Fact for Athlete A-->
-<tr>
-	<td>open</td>
-	<td>/athlete_listing_a</td>
-	<td></td>
-</tr>
-<tr>
-	<td>open</td>
-	<td>/node/add/fact-method</td>
-	<td></td>
-</tr>
-<tr>
-	<td>select</td>
-	<td>id=edit-field-fc-athlete-id-uid-uid</td>
-	<td>label=Athlete A - aathlete</td>
-</tr>
-<tr>
-	<td>type</td>
-	<td>id=edit-field-fc-value-0-value</td>
-	<td>14</td>
-</tr>
-<tr>
-	<td>select</td>
-	<td>id=edit-field-fc-noderef-nid-nid</td>
-	<td>label=Minutes Played</td>
-</tr>
-<tr>
-	<td>clickAndWait</td>
-	<td>css=div.node-form &gt; #edit-submit</td>
-	<td></td>
-</tr>
-<!--Add Fact for Athlete B-->
+<!--Create Fact for Athlete B - Thresholds team-->
 <tr>
 	<td>open</td>
 	<td>/athlete_listing_a</td>
@@ -704,12 +683,74 @@
 <tr>
 	<td>type</td>
 	<td>id=edit-field-fc-value-0-value</td>
+	<td>14</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=edit-field-fc-noderef-nid-nid</td>
+	<td>label=AAAAAThresholds Team</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=div.node-form &gt; #edit-submit</td>
+	<td></td>
+</tr>
+<!--Create Fact for Athlete B  - Thresholds individual-->
+<tr>
+	<td>open</td>
+	<td>/athlete_listing_a</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/node/add/fact-method</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=edit-field-fc-athlete-id-uid-uid</td>
+	<td>label=Athlete B - bathlete</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-field-fc-value-0-value</td>
+	<td>14</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=edit-field-fc-noderef-nid-nid</td>
+	<td>label=AAAAThreshold Individual</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=div.node-form &gt; #edit-submit</td>
+	<td></td>
+</tr>
+<!--Add Fact for Athlete A-->
+<tr>
+	<td>open</td>
+	<td>/athlete_listing_a</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/node/add/fact-method</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=edit-field-fc-athlete-id-uid-uid</td>
+	<td>label=Athlete A - aathlete</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-field-fc-value-0-value</td>
 	<td>10</td>
 </tr>
 <tr>
 	<td>select</td>
 	<td>id=edit-field-fc-noderef-nid-nid</td>
-	<td>label=Minutes Played</td>
+	<td>label=AAAAThreshold Individual</td>
 </tr>
 <tr>
 	<td>clickAndWait</td>
@@ -735,7 +776,7 @@
 <tr>
 	<td>addSelection</td>
 	<td>id=edit-field-dashboard-layout-role-id-rid-rid</td>
-	<td>label=Sport Coach</td>
+	<td>label=Strength Coach</td>
 </tr>
 <tr>
 	<td>addSelection</td>
@@ -756,6 +797,109 @@
 	<td>type</td>
 	<td>id=edit-group-dashboard-layout-gr-0-field-dashboard-layout-name-value</td>
 	<td>Name</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=edit-group-dashboard-layout-gr-group-dashboard-layout-gr-add-more</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>id=edit-group-dashboard-layout-gr-1-field-dashboard-layout-name-value</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-group-dashboard-layout-gr-1-field-dashboard-layout-name-value</td>
+	<td>empty_fact</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=edit-group-dashboard-layout-gr-1-field-dashboard-layout-unique-value</td>
+	<td>label=None</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=edit-group-dashboard-layout-gr-1-field-dashboard-layout-fact-nid-nid</td>
+	<td>label=AAAAAAEmpty</td>
+</tr>
+<!--add 3rd fact-->
+<tr>
+	<td>click</td>
+	<td>id=edit-group-dashboard-layout-gr-group-dashboard-layout-gr-add-more</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>id=edit-group-dashboard-layout-gr-2-field-dashboard-layout-name-value</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-group-dashboard-layout-gr-2-field-dashboard-layout-name-value</td>
+	<td>AAAA Thresholds Team</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=edit-group-dashboard-layout-gr-2-field-dashboard-layout-unique-value</td>
+	<td>label=None</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=edit-group-dashboard-layout-gr-2-field-dashboard-layout-fact-nid-nid</td>
+	<td>label=AAAAAThresholds Team</td>
+</tr>
+<!--add 4th fact-->
+<tr>
+	<td>click</td>
+	<td>id=edit-group-dashboard-layout-gr-group-dashboard-layout-gr-add-more</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>id=edit-group-dashboard-layout-gr-3-field-dashboard-layout-name-value</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-group-dashboard-layout-gr-3-field-dashboard-layout-name-value</td>
+	<td>AAAAThreshold Individual</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=edit-group-dashboard-layout-gr-3-field-dashboard-layout-unique-value</td>
+	<td>label=None</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=edit-group-dashboard-layout-gr-3-field-dashboard-layout-fact-nid-nid</td>
+	<td>label=AAAAThreshold Individual</td>
+</tr>
+<!--add calc  fact-->
+<tr>
+	<td>click</td>
+	<td>id=edit-group-dashboard-layout-gr-group-dashboard-layout-gr-add-more</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>id=edit-group-dashboard-layout-gr-4-field-dashboard-layout-name-value</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-group-dashboard-layout-gr-4-field-dashboard-layout-name-value</td>
+	<td>AAACalculated</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=edit-group-dashboard-layout-gr-4-field-dashboard-layout-unique-value</td>
+	<td>label=None</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=edit-group-dashboard-layout-gr-4-field-dashboard-layout-fact-nid-nid</td>
+	<td>label=AAACalculated</td>
 </tr>
 <tr>
 	<td>clickAndWait</td>
