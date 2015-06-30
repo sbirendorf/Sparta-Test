@@ -11,6 +11,7 @@
 <thead>
 <tr><td rowspan="1" colspan="3">Penn Login</td></tr>
 </thead><tbody>
+<!--Login as strength coach "Sparta Test"-->
 <tr>
 	<td>open</td>
 	<td>/user/login</td>
@@ -31,6 +32,7 @@
 	<td>id=edit-submit</td>
 	<td></td>
 </tr>
+<!--Create Athlete A-->
 <tr>
 	<td>open</td>
 	<td>/athlete_listing_a</td>
@@ -91,6 +93,7 @@
 	<td>css=#user-register &gt; div &gt; #edit-submit</td>
 	<td></td>
 </tr>
+<!--Create Athlete B-->
 <tr>
 	<td>open</td>
 	<td>/athlete_listing_a</td>
@@ -161,6 +164,7 @@
 	<td>css=#user-register &gt; div &gt; #edit-submit</td>
 	<td></td>
 </tr>
+<!--Create Strength Coach-->
 <tr>
 	<td>open</td>
 	<td>/admin/user/user/create</td>
@@ -221,6 +225,7 @@
 	<td>css=#user-register &gt; div &gt; #edit-submit</td>
 	<td></td>
 </tr>
+<!--Create Sport Coach-->
 <tr>
 	<td>open</td>
 	<td>/athlete_listing_a</td>
@@ -286,6 +291,7 @@
 	<td>css=#user-register &gt; div &gt; #edit-submit</td>
 	<td></td>
 </tr>
+<!--Create ATC-->
 <tr>
 	<td>open</td>
 	<td>/athlete_listing_a</td>
@@ -351,6 +357,7 @@
 	<td>/team_roster_c</td>
 	<td></td>
 </tr>
+<!--Create Group A (strength coach and sport coach manage, athlete b member)-->
 <tr>
 	<td>clickAndWait</td>
 	<td>id=dhtml_menu-54155</td>
@@ -401,6 +408,7 @@
 	<td>/content/baseball-test</td>
 	<td></td>
 </tr>
+<!--Create Group B (ATC manage, athlete a and b member)-->
 <tr>
 	<td>clickAndWait</td>
 	<td>id=dhtml_menu-54155</td>
@@ -446,6 +454,7 @@
 	<td>css=div.node-form &gt; #edit-submit</td>
 	<td></td>
 </tr>
+<!--Create Empty MetaFact-->
 <tr>
 	<td>open</td>
 	<td>/athlete_status_summary?title=</td>
@@ -471,6 +480,7 @@
 	<td>/content/empty</td>
 	<td></td>
 </tr>
+<!--Create Team Threshold MetaFact-->
 <tr>
 	<td>clickAndWait</td>
 	<td>id=dhtml_menu-54477</td>
@@ -526,6 +536,7 @@
 	<td>id=edit-group-mf-thresholds-0-field-mf-highlight-zone-value</td>
 	<td>#52f246</td>
 </tr>
+<!--Create Individual Threshold (for Athlete A)-->
 <tr>
 	<td>clickAndWait</td>
 	<td>css=div.node-form &gt; #edit-submit</td>
@@ -596,6 +607,7 @@
 	<td>css=div.node-form &gt; #edit-submit</td>
 	<td></td>
 </tr>
+<!--Create Calculated MetaFact-->
 <tr>
 	<td>open</td>
 	<td>/athlete_listing_a</td>
@@ -631,6 +643,7 @@
 	<td>css=div.node-form &gt; #edit-submit</td>
 	<td></td>
 </tr>
+<!--Create Source Profile-->
 <tr>
 	<td>open</td>
 	<td>/athlete_listing_a</td>
@@ -671,6 +684,7 @@
 	<td>css=div.node-form &gt; #edit-submit</td>
 	<td></td>
 </tr>
+<!--Create Fact for Athlete A-->
 <tr>
 	<td>open</td>
 	<td>/athlete_listing_a</td>
@@ -701,6 +715,7 @@
 	<td>css=div.node-form &gt; #edit-submit</td>
 	<td></td>
 </tr>
+<!--Add Fact for Athlete B-->
 <tr>
 	<td>open</td>
 	<td>/athlete_listing_a</td>
@@ -731,6 +746,7 @@
 	<td>css=div.node-form &gt; #edit-submit</td>
 	<td></td>
 </tr>
+<!--Create Dashboard-->
 <tr>
 	<td>open</td>
 	<td>/node/add/dashboard-layout</td>
@@ -776,6 +792,7 @@
 	<td>css=div.node-form &gt; #edit-submit</td>
 	<td></td>
 </tr>
+<!--Create Boundary-->
 <tr>
 	<td>open</td>
 	<td>/node/add/boundary</td>

@@ -11,6 +11,7 @@
 <thead>
 <tr><td rowspan="1" colspan="3">Update Athlete A</td></tr>
 </thead><tbody>
+<!--Update Athlete A -->
 <tr>
 	<td>open</td>
 	<td>/content/baseball-test-b</td>
@@ -61,6 +62,7 @@
 	<td>css=div.node-form &gt; #edit-submit</td>
 	<td></td>
 </tr>
+<!--Update Athlete B-->
 <tr>
 	<td>open</td>
 	<td>/content/athlete</td>
@@ -101,6 +103,7 @@
 	<td>css=div.node-form &gt; #edit-submit</td>
 	<td></td>
 </tr>
+<!--Update Strength Coach-->
 <tr>
 	<td>open</td>
 	<td>/content/athlete-b</td>
@@ -136,6 +139,7 @@
 	<td>css=div.node-form &gt; #edit-submit</td>
 	<td></td>
 </tr>
+<!--Update Sport Coach-->
 <tr>
 	<td>open</td>
 	<td>/content/strength-coach</td>
@@ -171,6 +175,7 @@
 	<td>css=div.node-form &gt; #edit-submit</td>
 	<td></td>
 </tr>
+<!--Update ATC-->
 <tr>
 	<td>open</td>
 	<td>/content/atc</td>
@@ -211,6 +216,7 @@
 	<td>css=div.node-form &gt; #edit-submit</td>
 	<td></td>
 </tr>
+<!--Update Group A-->
 <tr>
 	<td>open</td>
 	<td>/athlete_listing_a</td>
@@ -296,6 +302,7 @@
 	<td>css=div.node-form &gt; #edit-submit</td>
 	<td></td>
 </tr>
+<!--Update Threshold Team-->
 <tr>
 	<td>open</td>
 	<td>/athlete_listing_a</td>
@@ -336,6 +343,7 @@
 	<td>css=div.node-form &gt; #edit-submit</td>
 	<td></td>
 </tr>
+<!--Update Threshold Individual-->
 <tr>
 	<td>open</td>
 	<td>/athlete_listing_a</td>
@@ -376,6 +384,7 @@
 	<td>css=div.node-form &gt; #edit-submit</td>
 	<td></td>
 </tr>
+<!--Update Calculated MetaFact-->
 <tr>
 	<td>open</td>
 	<td>/athlete_listing_a</td>
@@ -401,6 +410,7 @@
 	<td>css=div.node-form &gt; #edit-submit</td>
 	<td></td>
 </tr>
+<!--Update Dashboard (add group)-->
 <tr>
 	<td>open</td>
 	<td>/athlete_listing_a</td>
@@ -431,6 +441,7 @@
 	<td>css=div.node-form &gt; #edit-submit</td>
 	<td></td>
 </tr>
+<!--Update Boundary-->
 <tr>
 	<td>open</td>
 	<td>/athlete_listing_a</td>
