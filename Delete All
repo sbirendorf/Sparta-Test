@@ -11,6 +11,7 @@
 <thead>
 <tr><td rowspan="1" colspan="3">Delete Boundary</td></tr>
 </thead><tbody>
+<!--Delete Athlete A Fact-->
 <tr>
 	<td>open</td>
 	<td>/manage_facts_by_ath_vbo</td>
@@ -36,6 +37,7 @@
 	<td>css=#views-bulk-operations-submit &gt; #edit-submit</td>
 	<td></td>
 </tr>
+<!--Delete Fact Athlete B-->
 <tr>
 	<td>type</td>
 	<td>css=#views-exposed-form-manage-facts-vbo-page-1 &gt; div &gt; div.views-exposed-form &gt; div.views-exposed-widgets.clear-block &gt; div.views-exposed-widget.views-widget-filter-title &gt; div.views-widget &gt; #edit-title-wrapper &gt; #edit-title</td>
@@ -56,6 +58,7 @@
 	<td>css=#views-bulk-operations-submit &gt; #edit-submit</td>
 	<td></td>
 </tr>
+<!--Delete Test Boundary-->
 <tr>
 	<td>open</td>
 	<td>/content/test-boundary</td>
@@ -76,6 +79,7 @@
 	<td>css=#node-delete-confirm &gt; div &gt; div.container-inline &gt; #edit-submit</td>
 	<td></td>
 </tr>
+<!--Delete Dashboard-->
 <tr>
 	<td>open</td>
 	<td>/athlete_listing_a</td>
@@ -96,6 +100,7 @@
 	<td>css=#node-delete-confirm &gt; div &gt; div.container-inline &gt; #edit-submit</td>
 	<td></td>
 </tr>
+<!--Delete Meta Facts (same code for all Meta Facts)-->
 <tr>
 	<td>open</td>
 	<td>/manage_meta_facts</td>
@@ -161,6 +166,7 @@
 	<td>css=#node-delete-confirm &gt; div &gt; div.container-inline &gt; #edit-submit</td>
 	<td></td>
 </tr>
+<!--Delete Source Profile-->
 <tr>
 	<td>open</td>
 	<td>/athlete_listing_a</td>
@@ -201,6 +207,7 @@
 	<td>css=#node-delete-confirm &gt; div &gt; div.container-inline &gt; #edit-submit</td>
 	<td></td>
 </tr>
+<!--Delete Group B-->
 <tr>
 	<td>open</td>
 	<td>/manage_groups</td>
@@ -231,6 +238,7 @@
 	<td>css=#node-delete-confirm &gt; div &gt; div.container-inline &gt; #edit-submit</td>
 	<td></td>
 </tr>
+<!--Delete Group A-->
 <tr>
 	<td>open</td>
 	<td>/manage_groups</td>
@@ -261,6 +269,7 @@
 	<td>css=#node-delete-confirm &gt; div &gt; div.container-inline &gt; #edit-submit</td>
 	<td></td>
 </tr>
+<!--Delete Athlete A-->
 <tr>
 	<td>open</td>
 	<td>/athlete_listing_a</td>
@@ -296,6 +305,7 @@
 	<td>css=#user-confirm-delete &gt; div &gt; div.container-inline &gt; #edit-submit</td>
 	<td></td>
 </tr>
+<!--Delete Athlete B-->
 <tr>
 	<td>open</td>
 	<td>/admin/user/user</td>
@@ -331,6 +341,7 @@
 	<td>css=#user-confirm-delete &gt; div &gt; div.container-inline &gt; #edit-submit</td>
 	<td></td>
 </tr>
+<!--Delete Strength Coach-->
 <tr>
 	<td>open</td>
 	<td>/admin/user/user</td>
@@ -366,6 +377,7 @@
 	<td>css=#user-confirm-delete &gt; div &gt; div.container-inline &gt; #edit-submit</td>
 	<td></td>
 </tr>
+<!--Delete Sport Coach-->
 <tr>
 	<td>open</td>
 	<td>/admin/user/user</td>
@@ -401,6 +413,7 @@
 	<td>css=#user-confirm-delete &gt; div &gt; div.container-inline &gt; #edit-submit</td>
 	<td></td>
 </tr>
+<!--Delete ATC-->
 <tr>
 	<td>open</td>
 	<td>/node/479589/user_edit</td>

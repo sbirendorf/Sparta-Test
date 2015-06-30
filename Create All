@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head profile="http://selenium-ide.openqa.org/profiles/test-case">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<link rel="selenium.base" href="http://penn.spartatrac.com/" />
+<link rel="selenium.base" href="http://spartadev.spartascience.com/" />
 <title>Penn Login</title>
 </head>
 <body>
@@ -35,12 +35,7 @@
 <!--Create Athlete A-->
 <tr>
 	<td>open</td>
-	<td>/athlete_listing_a</td>
-	<td></td>
-</tr>
-<tr>
-	<td>clickAndWait</td>
-	<td>id=dhtml_menu-54181</td>
+	<td>/admin/user/user/create</td>
 	<td></td>
 </tr>
 <tr>
@@ -96,12 +91,7 @@
 <!--Create Athlete B-->
 <tr>
 	<td>open</td>
-	<td>/athlete_listing_a</td>
-	<td></td>
-</tr>
-<tr>
-	<td>clickAndWait</td>
-	<td>id=dhtml_menu-54181</td>
+	<td>/admin/user/user/create</td>
 	<td></td>
 </tr>
 <tr>
@@ -171,11 +161,6 @@
 	<td></td>
 </tr>
 <tr>
-	<td>clickAndWait</td>
-	<td>id=dhtml_menu-54181</td>
-	<td></td>
-</tr>
-<tr>
 	<td>type</td>
 	<td>id=edit-name</td>
 	<td>strengthcoacha</td>
@@ -228,12 +213,7 @@
 <!--Create Sport Coach-->
 <tr>
 	<td>open</td>
-	<td>/athlete_listing_a</td>
-	<td></td>
-</tr>
-<tr>
-	<td>clickAndWait</td>
-	<td>id=dhtml_menu-54181</td>
+	<td>/admin/user/user/create</td>
 	<td></td>
 </tr>
 <tr>
@@ -294,12 +274,7 @@
 <!--Create ATC-->
 <tr>
 	<td>open</td>
-	<td>/athlete_listing_a</td>
-	<td></td>
-</tr>
-<tr>
-	<td>clickAndWait</td>
-	<td>id=dhtml_menu-54181</td>
+	<td>/admin/user/user/create</td>
 	<td></td>
 </tr>
 <tr>
@@ -359,8 +334,8 @@
 </tr>
 <!--Create Group A (strength coach and sport coach manage, athlete b member)-->
 <tr>
-	<td>clickAndWait</td>
-	<td>id=dhtml_menu-54155</td>
+	<td>open</td>
+	<td>node/add/athlete-group</td>
 	<td></td>
 </tr>
 <tr>
@@ -410,8 +385,8 @@
 </tr>
 <!--Create Group B (ATC manage, athlete a and b member)-->
 <tr>
-	<td>clickAndWait</td>
-	<td>id=dhtml_menu-54155</td>
+	<td>open</td>
+	<td>node/add/athlete-group</td>
 	<td></td>
 </tr>
 <tr>
@@ -457,12 +432,7 @@
 <!--Create Empty MetaFact-->
 <tr>
 	<td>open</td>
-	<td>/athlete_status_summary?title=</td>
-	<td></td>
-</tr>
-<tr>
-	<td>clickAndWait</td>
-	<td>id=dhtml_menu-54477</td>
+	<td>/node/add/meta-fact</td>
 	<td></td>
 </tr>
 <tr>
@@ -482,8 +452,8 @@
 </tr>
 <!--Create Team Threshold MetaFact-->
 <tr>
-	<td>clickAndWait</td>
-	<td>id=dhtml_menu-54477</td>
+	<td>open</td>
+	<td>node/add/meta-fact</td>
 	<td></td>
 </tr>
 <tr>
@@ -548,8 +518,8 @@
 	<td></td>
 </tr>
 <tr>
-	<td>clickAndWait</td>
-	<td>id=dhtml_menu-54477</td>
+	<td>open</td>
+	<td>/node/add/meta-fact</td>
 	<td></td>
 </tr>
 <tr>
@@ -614,8 +584,8 @@
 	<td></td>
 </tr>
 <tr>
-	<td>clickAndWait</td>
-	<td>id=dhtml_menu-54477</td>
+	<td>open</td>
+	<td>node/add/meta-fact</td>
 	<td></td>
 </tr>
 <tr>

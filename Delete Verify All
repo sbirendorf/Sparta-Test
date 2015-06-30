@@ -19,6 +19,7 @@
 <thead>
 <tr><td rowspan="1" colspan="3">Delete Verify Athlete A</td></tr>
 </thead><tbody>
+<!--Verify Athlete A-->
 <tr>
 	<td>open</td>
 	<td>/content/externalload</td>
@@ -44,6 +45,7 @@
 	<td>/athlete_status_summary?title=Athlete+A</td>
 	<td></td>
 </tr>
+<!--Verify Athlete B-->
 <tr>
 	<td>type</td>
 	<td>id=edit-title</td>
@@ -64,6 +66,7 @@
 	<td>/athlete_status_summary?title=Athlete+A</td>
 	<td></td>
 </tr>
+<!--Verify Strength Coach-->
 <tr>
 	<td>type</td>
 	<td>id=edit-title</td>
@@ -84,6 +87,7 @@
 	<td>/athlete_status_summary?title=Athlete+A</td>
 	<td></td>
 </tr>
+<!--Verify Sport Coach-->
 <tr>
 	<td>type</td>
 	<td>id=edit-title</td>
@@ -104,6 +108,7 @@
 	<td>/athlete_status_summary?title=Athlete+A</td>
 	<td></td>
 </tr>
+<!--Verify ATC-->
 <tr>
 	<td>type</td>
 	<td>id=edit-title</td>
@@ -124,6 +129,7 @@
 	<td>/athlete_status_summary?title=ATC+A</td>
 	<td></td>
 </tr>
+<!--Verify Group A-->
 <tr>
 	<td>clickAndWait</td>
 	<td>id=dhtml_menu-54165</td>
@@ -139,6 +145,7 @@
 	<td>/athlete_status_summary?title=ATC+A</td>
 	<td></td>
 </tr>
+<!--Verify Group B-->
 <tr>
 	<td>clickAndWait</td>
 	<td>id=dhtml_menu-54165</td>
@@ -149,6 +156,7 @@
 	<td>Baseball Test B</td>
 	<td></td>
 </tr>
+<!--Verify Meta Facts-->
 <tr>
 	<td>open</td>
 	<td>/athlete_listing_a</td>
@@ -209,6 +217,7 @@
 	<td>AAACalculated</td>
 	<td></td>
 </tr>
+<!--Verify Dashboard-->
 <tr>
 	<td>open</td>
 	<td>/athlete_listing_a</td>
@@ -224,56 +233,7 @@
 	<td>Dashboard A</td>
 	<td></td>
 </tr>
-<tr>
-	<td>open</td>
-	<td>/athlete_listing_a</td>
-	<td></td>
-</tr>
-<tr>
-	<td>clickAndWait</td>
-	<td>id=dhtml_menu-54658</td>
-	<td></td>
-</tr>
-<tr>
-	<td>type</td>
-	<td>css=#views-exposed-form-manage-facts-vbo-page-2 &gt; div &gt; div.views-exposed-form &gt; div.views-exposed-widgets.clear-block &gt; div.views-exposed-widget.views-widget-filter-title &gt; div.views-widget &gt; #edit-title-wrapper &gt; #edit-title</td>
-	<td>Athlete A</td>
-</tr>
-<tr>
-	<td>clickAndWait</td>
-	<td>id=edit-submit-manage-facts-vbo</td>
-	<td></td>
-</tr>
-<tr>
-	<td>verifyTextNotPresent</td>
-	<td>Minutes Played</td>
-	<td></td>
-</tr>
-<tr>
-	<td>verifyTextNotPresent</td>
-	<td>Athlete A</td>
-	<td></td>
-</tr>
-<tr>
-	<td>type</td>
-	<td>css=#views-exposed-form-manage-facts-vbo-page-2 &gt; div &gt; div.views-exposed-form &gt; div.views-exposed-widgets.clear-block &gt; div.views-exposed-widget.views-widget-filter-title &gt; div.views-widget &gt; #edit-title-wrapper &gt; #edit-title</td>
-	<td>Athlete B</td>
-</tr>
-<tr>
-	<td>clickAndWait</td>
-	<td>id=edit-submit-manage-facts-vbo</td>
-	<td></td>
-</tr>
-<tr>
-	<td>verifyTextNotPresent</td>
-	<td>Minutes Played</td>
-	<td></td>
-</tr>
-<tr>
-	<td>verifyTextNotPresent</td>
-	<td>Athlete B</td>
-	<td></td>
-</tr>
+<!--Verify Boundary-->
 <tr>
 	<td>open</td>
 	<td>/athlete_listing_a</td>
@@ -289,6 +249,7 @@
 	<td>Test Boundary</td>
 	<td></td>
 </tr>
+<!--Verify Facts-->
 <tr>
 	<td>open</td>
 	<td>/manage_facts_by_ath_vbo</td>
