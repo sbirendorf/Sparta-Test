@@ -383,6 +383,16 @@
 </tr>
 <tr>
 	<td>addSelection</td>
+	<td>id=field_gr_coach_uids</td>
+	<td>label=spartatest - spartatest</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Add</td>
+	<td></td>
+</tr>
+<tr>
+	<td>addSelection</td>
 	<td>id=field_gr_athlete_uids</td>
 	<td>label=Athlete B - bathlete</td>
 </tr>
@@ -749,7 +759,7 @@
 <tr>
 	<td>addSelection</td>
 	<td>id=edit-field-dashboard-layout-role-id-rid-rid</td>
-	<td>label=Sport Coach</td>
+	<td>label=Strength Coach</td>
 </tr>
 <tr>
 	<td>addSelection</td>
@@ -770,6 +780,31 @@
 	<td>type</td>
 	<td>id=edit-group-dashboard-layout-gr-0-field-dashboard-layout-name-value</td>
 	<td>Name</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=edit-group-dashboard-layout-gr-group-dashboard-layout-gr-add-more</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>id=edit-group-dashboard-layout-gr-1-field-dashboard-layout-name-value</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-group-dashboard-layout-gr-1-field-dashboard-layout-name-value</td>
+	<td>empty_fact</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=edit-group-dashboard-layout-gr-1-field-dashboard-layout-unique-value</td>
+	<td>label=None</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=edit-group-dashboard-layout-gr-1-field-dashboard-layout-fact-nid-nid</td>
+	<td>label=AAAAAAEmpty</td>
 </tr>
 <tr>
 	<td>clickAndWait</td>
