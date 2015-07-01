@@ -375,12 +375,7 @@
 <!--Read Thresholds Team-->
 <tr>
 	<td>open</td>
-	<td>/athlete_listing_a</td>
-	<td></td>
-</tr>
-<tr>
-	<td>clickAndWait</td>
-	<td>id=dhtml_menu-54478</td>
+	<td>/manage_meta_facts</td>
 	<td></td>
 </tr>
 <tr>
@@ -426,12 +421,7 @@
 <!--Read Threshold Individual-->
 <tr>
 	<td>open</td>
-	<td>/athlete_listing_a</td>
-	<td></td>
-</tr>
-<tr>
-	<td>clickAndWait</td>
-	<td>id=dhtml_menu-54478</td>
+	<td>/manage_meta_facts</td>
 	<td></td>
 </tr>
 <tr>
@@ -842,7 +832,7 @@
 </tr>
 <tr>
 	<td>verifyTextPresent</td>
-	<td>Minutes Played</td>
+	<td>AAAAThreshold Individual</td>
 	<td></td>
 </tr>
 </tbody></table>
