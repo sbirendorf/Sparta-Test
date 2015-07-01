@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://spartadev.spartascience.com/" />
+<title>New Test</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">New Test</td></tr>
+</thead><tbody>
+<!--Create Athlete Wellness-->
+<tr>
+	<td>open</td>
+	<td>/node/add/wellness</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=edit-field-wn-athlete-id-uid-uid</td>
+	<td>label=Athlete A - aathlete</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=edit-field-wn-cold-flu-value-1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=edit-field-wn-appetite-value-1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=edit-field-wn-alterness-value-4</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=edit-field-wn-mood-value-3</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=edit-field-wn-soreness-value-2</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=edit-field-wn-physical-value-5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=edit-field-wn-sleep-restful-value-1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=div.node-form &gt; #edit-submit</td>
+	<td></td>
+</tr>
+<!--Read Athlete Wellness-->
+<tr>
+	<td>open</td>
+	<td>/manage_wellness_vbo</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>css=#views-exposed-form-manage-wellness-vbo-page-1 &gt; div &gt; div.views-exposed-form &gt; div.views-exposed-widgets.clear-block &gt; div.views-exposed-widget.views-widget-filter-title &gt; div.views-widget &gt; #edit-title-wrapper &gt; #edit-title</td>
+	<td>Athlete A</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=edit-submit-manage-wellness-vbo</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>aathlete</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>4</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>3</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>2</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>No</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>15</td>
+	<td></td>
+</tr>
+<!--Delete Wellness-->
+<tr>
+	<td>open</td>
+	<td>/manage_wellness_vbo</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>css=#views-exposed-form-manage-wellness-vbo-page-1 &gt; div &gt; div.views-exposed-form &gt; div.views-exposed-widgets.clear-block &gt; div.views-exposed-widget.views-widget-filter-title &gt; div.views-widget &gt; #edit-title-wrapper &gt; #edit-title</td>
+	<td>Athlete A</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=edit-submit-manage-wellness-vbo</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=thead.tableHeader-processed &gt; tr &gt; th.vbo-select-all &gt; input.form-checkbox</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=#views-bulk-operations-submit &gt; #edit-submit</td>
+	<td></td>
+</tr>
+<!--Verify Wellness Deleted-->
+<tr>
+	<td>open</td>
+	<td>/manage_wellness_vbo</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>css=#views-exposed-form-manage-wellness-vbo-page-1 &gt; div &gt; div.views-exposed-form &gt; div.views-exposed-widgets.clear-block &gt; div.views-exposed-widget.views-widget-filter-title &gt; div.views-widget &gt; #edit-title-wrapper &gt; #edit-title</td>
+	<td>Athlete A</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=edit-submit-manage-wellness-vbo</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextNotPresent</td>
+	<td>aathlete</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

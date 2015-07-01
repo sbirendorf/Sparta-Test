@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head profile="http://selenium-ide.openqa.org/profiles/test-case">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<link rel="selenium.base" href="http://spartadev.spartascience.com/" />
+<link rel="selenium.base" href="http://academia.spartascience.com/" />
 <title>Update Athlete A</title>
 </head>
 <body>
@@ -438,8 +438,23 @@
 	<td></td>
 </tr>
 <tr>
+	<td>type</td>
+	<td>css=#views-exposed-form-manage-dashboard-layout-page-1 &gt; div &gt; div.views-exposed-form &gt; div.views-exposed-widgets.clear-block &gt; div.views-exposed-widget.views-widget-filter-title &gt; div.views-widget &gt; #edit-title-wrapper &gt; #edit-title</td>
+	<td>Dashboard A</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=edit-submit-manage-dashboard-layout</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>7000</td>
+	<td></td>
+</tr>
+<tr>
 	<td>clickAndWait</td>
-	<td>css=tr.even.views-row-last &gt; td.views-field.views-field-edit-node &gt; a[title=&quot;Edit&quot;] &gt; i.glyphicon.icon-edit</td>
+	<td>css=i.glyphicon.icon-edit</td>
 	<td></td>
 </tr>
 <tr>

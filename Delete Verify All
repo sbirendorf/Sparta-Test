@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head profile="http://selenium-ide.openqa.org/profiles/test-case">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<link rel="selenium.base" href="http://spartadev.spartascience.com/" />
+<link rel="selenium.base" href="http://academia.spartascience.com/" />
 <title>New Test</title>
 </head>
 <body>
@@ -225,6 +225,12 @@
 <tr>
 	<td>verifyTextNotPresent</td>
 	<td>bathlete</td>
+	<td></td>
+</tr>
+<!--Logout-->
+<tr>
+	<td>clickAndWait</td>
+	<td>id=dhtml_menu-29506</td>
 	<td></td>
 </tr>
 </tbody></table>

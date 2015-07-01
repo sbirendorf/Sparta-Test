@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head profile="http://selenium-ide.openqa.org/profiles/test-case">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<link rel="selenium.base" href="http://spartadev.spartascience.com/" />
+<link rel="selenium.base" href="http://academia.spartascience.com/" />
 <title>New Test</title>
 </head>
 <body>
@@ -358,6 +358,11 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause </td>
+	<td>7000</td>
+	<td></td>
+</tr>
+<tr>
 	<td>verifyTextPresent</td>
 	<td>AAAAAAEmpty</td>
 	<td></td>
@@ -391,6 +396,11 @@
 <tr>
 	<td>click</td>
 	<td>id=edit-submit-manage-meta-facts</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>7000</td>
 	<td></td>
 </tr>
 <tr>
@@ -442,6 +452,11 @@
 <tr>
 	<td>click</td>
 	<td>id=edit-submit-manage-meta-facts</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>7000</td>
 	<td></td>
 </tr>
 <tr>
@@ -523,6 +538,11 @@
 <tr>
 	<td>click</td>
 	<td>id=edit-submit-manage-meta-facts</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>7000</td>
 	<td></td>
 </tr>
 <tr>
@@ -859,9 +879,8 @@
 	<td>verifyTextPresent</td>
 	<td>AAAAAThresholds Team</td>
 	<td></td>
-	</tr>
-	
-	<tr>
+</tr>
+<tr>
 	<td>verifyTextPresent</td>
 	<td>AAAAThreshold Individual</td>
 	<td></td>
