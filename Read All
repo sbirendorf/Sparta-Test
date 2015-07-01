@@ -375,11 +375,14 @@
 <!--Read Thresholds Team-->
 <tr>
 	<td>open</td>
+<<<<<<< HEAD
 	<td>/athlete_listing_a</td>
 	<td></td>
 </tr>
 <tr>
 	<td>open</td>
+=======
+>>>>>>> 35c014df8077b9c9a950c392c16169f9a372c516
 	<td>/manage_meta_facts</td>
 	<td></td>
 </tr>
@@ -426,11 +429,14 @@
 <!--Read Threshold Individual-->
 <tr>
 	<td>open</td>
+<<<<<<< HEAD
 	<td>/athlete_listing_a</td>
 	<td></td>
 </tr>
 <tr>
 	<td>open</td>
+=======
+>>>>>>> 35c014df8077b9c9a950c392c16169f9a372c516
 	<td>/manage_meta_facts</td>
 	<td></td>
 </tr>
@@ -842,6 +848,7 @@
 </tr>
 <tr>
 	<td>verifyTextPresent</td>
+<<<<<<< HEAD
 	<td>6</td>
 	<td></td>
 </tr>
@@ -858,6 +865,9 @@
 <tr>
 	<td>verifyTextPresent</td>
 	<td>AAAAAThresholds Team</td>
+=======
+	<td>AAAAThreshold Individual</td>
+>>>>>>> 35c014df8077b9c9a950c392c16169f9a372c516
 	<td></td>
 </tr>
 </tbody></table>
