@@ -224,8 +224,13 @@
 	<td>Baseball Test B</td>
 </tr>
 <tr>
-	<td>clickAndWait</td>
+	<td>click</td>
 	<td>id=edit-submit-manage-groups</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>7000</td>
 	<td></td>
 </tr>
 <tr>
@@ -255,8 +260,13 @@
 	<td>Group A</td>
 </tr>
 <tr>
-	<td>clickAndWait</td>
+	<td>click</td>
 	<td>id=edit-submit-manage-groups</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>7000</td>
 	<td></td>
 </tr>
 <tr>

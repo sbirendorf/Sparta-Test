@@ -90,12 +90,12 @@
 </tr>
 <tr>
 	<td>type</td>
-	<td>css=#views-exposed-form-athlete-search-v-newUIFW-page-6 &gt; div &gt; div.views-exposed-form &gt; div.views-exposed-widgets.clear-block &gt; div.views-exposed-widget.views-widget-filter-title &gt; div.views-widget &gt; #edit-title-wrapper &gt; #edit-title</td>
+	<td>id=edit-title</td>
 	<td>Athlete B</td>
 </tr>
 <tr>
 	<td>clickAndWait</td>
-	<td>id=edit-submit-athlete-search-v-newUIFW</td>
+	<td>id=edit-submit-athlete-search</td>
 	<td></td>
 </tr>
 <tr>
@@ -161,12 +161,12 @@
 </tr>
 <tr>
 	<td>type</td>
-	<td>css=#views-exposed-form-athlete-search-v-newUIFW-page-6 &gt; div &gt; div.views-exposed-form &gt; div.views-exposed-widgets.clear-block &gt; div.views-exposed-widget.views-widget-filter-title &gt; div.views-widget &gt; #edit-title-wrapper &gt; #edit-title</td>
+	<td>id=edit-title</td>
 	<td>Strength Coach AAA</td>
 </tr>
 <tr>
 	<td>clickAndWait</td>
-	<td>id=edit-submit-athlete-search-v-newUIFW</td>
+	<td>id=edit-submit-athlete-search</td>
 	<td></td>
 </tr>
 <tr>
@@ -343,8 +343,8 @@
 	<td></td>
 </tr>
 <tr>
-	<td>clickAndWait</td>
-	<td>id=dhtml_menu-54478</td>
+	<td>open</td>
+	<td>/manage_meta_facts</td>
 	<td></td>
 </tr>
 <tr>
@@ -379,8 +379,8 @@
 	<td></td>
 </tr>
 <tr>
-	<td>clickAndWait</td>
-	<td>id=dhtml_menu-54478</td>
+	<td>open</td>
+	<td>/manage_meta_facts</td>
 	<td></td>
 </tr>
 <tr>
@@ -430,8 +430,8 @@
 	<td></td>
 </tr>
 <tr>
-	<td>clickAndWait</td>
-	<td>id=dhtml_menu-54478</td>
+	<td>open</td>
+	<td>/manage_meta_facts</td>
 	<td></td>
 </tr>
 <tr>
@@ -511,8 +511,8 @@
 	<td></td>
 </tr>
 <tr>
-	<td>clickAndWait</td>
-	<td>id=dhtml_menu-54478</td>
+	<td>open</td>
+	<td>/manage_meta_facts</td>
 	<td></td>
 </tr>
 <tr>
@@ -568,11 +568,6 @@
 <!--Read Dashboard A-->
 <tr>
 	<td>open</td>
-	<td>/athlete_listing_a</td>
-	<td></td>
-</tr>
-<tr>
-	<td>open</td>
 	<td>/manage_dashboard_layout</td>
 	<td></td>
 </tr>
@@ -584,6 +579,11 @@
 <tr>
 	<td>click</td>
 	<td>id=edit-submit-manage-dashboard-layout</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>7000</td>
 	<td></td>
 </tr>
 <tr>
@@ -614,11 +614,6 @@
 <tr>
 	<td>verifyTextPresent</td>
 	<td>Group A</td>
-	<td></td>
-</tr>
-<tr>
-	<td>open</td>
-	<td>/athlete_listing_a</td>
 	<td></td>
 </tr>
 <tr>
@@ -760,13 +755,18 @@
 	<td></td>
 </tr>
 <tr>
-	<td>clickAndWait</td>
-	<td>link=Edit</td>
+	<td>verifyTextPresent</td>
+	<td>Test Boundary</td>
 	<td></td>
 </tr>
 <tr>
 	<td>verifyTextPresent</td>
-	<td>Test Boundary</td>
+	<td>10</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -842,7 +842,22 @@
 </tr>
 <tr>
 	<td>verifyTextPresent</td>
-	<td>Minutes Played</td>
+	<td>6</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>14</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>AAAAThreshold Individual</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>AAAAAThresholds Team</td>
 	<td></td>
 </tr>
 </tbody></table>

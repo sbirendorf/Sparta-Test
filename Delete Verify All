@@ -3,16 +3,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head profile="http://selenium-ide.openqa.org/profiles/test-case">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<link rel="selenium.base" href="http://penn.spartatrac.com/" />
+<link rel="selenium.base" href="http://spartadev.spartascience.com/" />
 <title>New Test</title>
-</head>
-<body><?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<head profile="http://selenium-ide.openqa.org/profiles/test-case">
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<link rel="selenium.base" href="http://dev2.spartatrac.com/" />
-<title>Delete Verify Athlete A</title>
 </head>
 <body>
 <table cellpadding="1" cellspacing="1" border="1">
@@ -131,8 +123,8 @@
 </tr>
 <!--Verify Group A-->
 <tr>
-	<td>clickAndWait</td>
-	<td>id=dhtml_menu-54165</td>
+	<td>open</td>
+	<td>/manage_groups</td>
 	<td></td>
 </tr>
 <tr>
@@ -140,17 +132,7 @@
 	<td>Group A</td>
 	<td></td>
 </tr>
-<tr>
-	<td>open</td>
-	<td>/athlete_status_summary?title=ATC+A</td>
-	<td></td>
-</tr>
 <!--Verify Group B-->
-<tr>
-	<td>clickAndWait</td>
-	<td>id=dhtml_menu-54165</td>
-	<td></td>
-</tr>
 <tr>
 	<td>verifyTextNotPresent</td>
 	<td>Baseball Test B</td>
@@ -159,12 +141,7 @@
 <!--Verify Meta Facts-->
 <tr>
 	<td>open</td>
-	<td>/athlete_listing_a</td>
-	<td></td>
-</tr>
-<tr>
-	<td>clickAndWait</td>
-	<td>id=dhtml_menu-54478</td>
+	<td>/manage_meta_facts</td>
 	<td></td>
 </tr>
 <tr>
@@ -173,43 +150,13 @@
 	<td></td>
 </tr>
 <tr>
-	<td>open</td>
-	<td>/athlete_listing_a</td>
-	<td></td>
-</tr>
-<tr>
-	<td>clickAndWait</td>
-	<td>id=dhtml_menu-54478</td>
-	<td></td>
-</tr>
-<tr>
 	<td>verifyTextNotPresent</td>
 	<td>AAAAThreshold Individual</td>
 	<td></td>
 </tr>
 <tr>
-	<td>open</td>
-	<td>/athlete_listing_a</td>
-	<td></td>
-</tr>
-<tr>
-	<td>clickAndWait</td>
-	<td>id=dhtml_menu-54478</td>
-	<td></td>
-</tr>
-<tr>
 	<td>verifyTextNotPresent</td>
 	<td>AAAAAAEmpty</td>
-	<td></td>
-</tr>
-<tr>
-	<td>open</td>
-	<td>/athlete_listing_a</td>
-	<td></td>
-</tr>
-<tr>
-	<td>clickAndWait</td>
-	<td>id=dhtml_menu-54478</td>
 	<td></td>
 </tr>
 <tr>
@@ -220,12 +167,7 @@
 <!--Verify Dashboard-->
 <tr>
 	<td>open</td>
-	<td>/athlete_listing_a</td>
-	<td></td>
-</tr>
-<tr>
-	<td>clickAndWait</td>
-	<td>id=dhtml_menu-55256</td>
+	<td>/manage_dashboard_layout</td>
 	<td></td>
 </tr>
 <tr>
@@ -236,12 +178,7 @@
 <!--Verify Boundary-->
 <tr>
 	<td>open</td>
-	<td>/athlete_listing_a</td>
-	<td></td>
-</tr>
-<tr>
-	<td>clickAndWait</td>
-	<td>id=dhtml_menu-92599</td>
+	<td>/manage_boundary_by_name_vbo</td>
 	<td></td>
 </tr>
 <tr>
@@ -271,11 +208,6 @@
 	<td></td>
 </tr>
 <tr>
-	<td>verifyTextNotPresent</td>
-	<td>Minutes Played</td>
-	<td></td>
-</tr>
-<tr>
 	<td>open</td>
 	<td>/manage_facts_by_ath_vbo</td>
 	<td></td>
@@ -293,16 +225,6 @@
 <tr>
 	<td>verifyTextNotPresent</td>
 	<td>bathlete</td>
-	<td></td>
-</tr>
-<tr>
-	<td>verifyTextNotPresent</td>
-	<td>Minutes Played</td>
-	<td></td>
-</tr>
-<tr>
-	<td>clickAndWait</td>
-	<td>id=dhtml_menu-29506</td>
 	<td></td>
 </tr>
 </tbody></table>

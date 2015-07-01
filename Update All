@@ -252,11 +252,6 @@
 	<td>css=div.node-form &gt; #edit-submit</td>
 	<td></td>
 </tr>
-<tr>
-	<td>open</td>
-	<td>/athlete_listing_a</td>
-	<td></td>
-</tr>
 <!--Edit Group B-->
 <tr>
 	<td>open</td>
@@ -315,6 +310,11 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>7000</td>
+	<td></td>
+</tr>
+<tr>
 	<td>clickAndWait</td>
 	<td>link=edit</td>
 	<td></td>
@@ -361,6 +361,11 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>7000</td>
+	<td></td>
+</tr>
+<tr>
 	<td>clickAndWait</td>
 	<td>link=edit</td>
 	<td></td>
@@ -404,6 +409,11 @@
 <tr>
 	<td>click</td>
 	<td>id=edit-submit-manage-meta-facts</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>7000</td>
 	<td></td>
 </tr>
 <tr>

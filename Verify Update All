@@ -461,7 +461,7 @@
 <!--Verify Thresholds Team-->
 <tr>
 	<td>open</td>
-	<td>manage_meta_facts</td>
+	<td>/manage_meta_facts</td>
 	<td></td>
 </tr>
 <tr>
@@ -482,6 +482,11 @@
 <tr>
 	<td>click</td>
 	<td>id=edit-submit-manage-meta-facts</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>9000</td>
 	<td></td>
 </tr>
 <tr>
@@ -561,8 +566,13 @@
 	<td>AAAAThreshold Individual</td>
 </tr>
 <tr>
-	<td>clickAndWait</td>
+	<td>click</td>
 	<td>id=edit-submit-manage-meta-facts</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>7000</td>
 	<td></td>
 </tr>
 <tr>
@@ -642,8 +652,13 @@
 	<td>AAACalculated</td>
 </tr>
 <tr>
-	<td>clickAndWait</td>
+	<td>click</td>
 	<td>id=edit-submit-manage-meta-facts</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>7000</td>
 	<td></td>
 </tr>
 <tr>
@@ -698,8 +713,13 @@
 	<td>Dashboard A</td>
 </tr>
 <tr>
-	<td>clickAndWait</td>
+	<td>click</td>
 	<td>id=edit-submit-manage-dashboard-layout</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>8000</td>
 	<td></td>
 </tr>
 <tr>
