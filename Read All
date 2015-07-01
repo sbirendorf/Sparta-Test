@@ -348,6 +348,16 @@
 	<td></td>
 </tr>
 <tr>
+	<td>type</td>
+	<td>css=#views-exposed-form-manage-meta-facts-page-1 &gt; div &gt; div.views-exposed-form &gt; div.views-exposed-widgets.clear-block &gt; div.views-exposed-widget.views-widget-filter-title &gt; div.views-widget &gt; #edit-title-wrapper &gt; #edit-title</td>
+	<td>AAAA</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=edit-submit-manage-meta-facts</td>
+	<td></td>
+</tr>
+<tr>
 	<td>verifyTextPresent</td>
 	<td>AAAAAAEmpty</td>
 	<td></td>
@@ -371,6 +381,16 @@
 <tr>
 	<td>clickAndWait</td>
 	<td>id=dhtml_menu-54478</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>css=#views-exposed-form-manage-meta-facts-page-1 &gt; div &gt; div.views-exposed-form &gt; div.views-exposed-widgets.clear-block &gt; div.views-exposed-widget.views-widget-filter-title &gt; div.views-widget &gt; #edit-title-wrapper &gt; #edit-title</td>
+	<td>AAAA</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=edit-submit-manage-meta-facts</td>
 	<td></td>
 </tr>
 <tr>
@@ -412,6 +432,16 @@
 <tr>
 	<td>clickAndWait</td>
 	<td>id=dhtml_menu-54478</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>css=#views-exposed-form-manage-meta-facts-page-1 &gt; div &gt; div.views-exposed-form &gt; div.views-exposed-widgets.clear-block &gt; div.views-exposed-widget.views-widget-filter-title &gt; div.views-widget &gt; #edit-title-wrapper &gt; #edit-title</td>
+	<td>AAAA</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=edit-submit-manage-meta-facts</td>
 	<td></td>
 </tr>
 <tr>
@@ -486,6 +516,16 @@
 	<td></td>
 </tr>
 <tr>
+	<td>type</td>
+	<td>css=#views-exposed-form-manage-meta-facts-page-1 &gt; div &gt; div.views-exposed-form &gt; div.views-exposed-widgets.clear-block &gt; div.views-exposed-widget.views-widget-filter-title &gt; div.views-widget &gt; #edit-title-wrapper &gt; #edit-title</td>
+	<td>AAA</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=edit-submit-manage-meta-facts</td>
+	<td></td>
+</tr>
+<tr>
 	<td>verifyTextPresent</td>
 	<td>AAACalculated</td>
 	<td></td>
@@ -517,7 +557,7 @@
 </tr>
 <tr>
 	<td>verifyTextPresent</td>
-	<td>Minutes Played</td>
+	<td>AAAAThreshold Individual</td>
 	<td></td>
 </tr>
 <tr>
@@ -532,8 +572,18 @@
 	<td></td>
 </tr>
 <tr>
-	<td>clickAndWait</td>
-	<td>id=dhtml_menu-54475</td>
+	<td>open</td>
+	<td>/manage_dashboard_layout</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>css=#views-exposed-form-manage-dashboard-layout-page-1 &gt; div &gt; div.views-exposed-form &gt; div.views-exposed-widgets.clear-block &gt; div.views-exposed-widget.views-widget-filter-title &gt; div.views-widget &gt; #edit-title-wrapper &gt; #edit-title</td>
+	<td>Dashboard A</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=edit-submit-manage-dashboard-layout</td>
 	<td></td>
 </tr>
 <tr>
@@ -553,7 +603,7 @@
 </tr>
 <tr>
 	<td>verifyTextPresent</td>
-	<td>Sport Coach</td>
+	<td>Strength Coach </td>
 	<td></td>
 </tr>
 <tr>
@@ -572,21 +622,6 @@
 	<td></td>
 </tr>
 <tr>
-	<td>type</td>
-	<td>id=edit-title</td>
-	<td>sport coach aaa</td>
-</tr>
-<tr>
-	<td>clickAndWait</td>
-	<td>id=edit-submit-athlete-search</td>
-	<td></td>
-</tr>
-<tr>
-	<td>clickAndWait</td>
-	<td>//div[@id='main']/div/table/tbody/tr/td[7]/a/i</td>
-	<td></td>
-</tr>
-<tr>
 	<td>clickAndWait</td>
 	<td>link=Dashboard A</td>
 	<td></td>
@@ -597,19 +632,34 @@
 	<td></td>
 </tr>
 <tr>
-	<td>clickAndWait</td>
-	<td>link=Switch back</td>
+	<td>verifyTextPresent</td>
+	<td>AAAA Thresholds Team</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>AAAAThreshold Individual</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>AAACalculated</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>14</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>20</td>
 	<td></td>
 </tr>
 <!--Read Group A-->
 <tr>
 	<td>open</td>
-	<td>/athlete_listing_a</td>
-	<td></td>
-</tr>
-<tr>
-	<td>clickAndWait</td>
-	<td>id=dhtml_menu-54165</td>
+	<td>/manage_groups</td>
 	<td></td>
 </tr>
 <tr>
@@ -655,12 +705,7 @@
 <!--Read Group B-->
 <tr>
 	<td>open</td>
-	<td>/athlete_listing_a</td>
-	<td></td>
-</tr>
-<tr>
-	<td>clickAndWait</td>
-	<td>id=dhtml_menu-54165</td>
+	<td>/manage_groups</td>
 	<td></td>
 </tr>
 <tr>
@@ -701,12 +746,7 @@
 <!--Read Test Boundary-->
 <tr>
 	<td>open</td>
-	<td>/athlete_listing_a</td>
-	<td></td>
-</tr>
-<tr>
-	<td>clickAndWait</td>
-	<td>id=dhtml_menu-92599</td>
+	<td>/manage_boundary_by_name_vbo</td>
 	<td></td>
 </tr>
 <tr>
@@ -717,6 +757,11 @@
 <tr>
 	<td>clickAndWait</td>
 	<td>link=Test Boundary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Edit</td>
 	<td></td>
 </tr>
 <tr>
@@ -767,7 +812,7 @@
 </tr>
 <tr>
 	<td>verifyTextPresent</td>
-	<td>Minutes Played</td>
+	<td>AAAAThreshold Individual</td>
 	<td></td>
 </tr>
 <tr>
