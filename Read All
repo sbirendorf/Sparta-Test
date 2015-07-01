@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head profile="http://selenium-ide.openqa.org/profiles/test-case">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<link rel="selenium.base" href="http://penn.spartatrac.com/" />
+<link rel="selenium.base" href="http://spartadev.spartascience.com/" />
 <title>New Test</title>
 </head>
 <body>
@@ -19,12 +19,12 @@
 </tr>
 <tr>
 	<td>type</td>
-	<td>css=#views-exposed-form-athlete-search-v-newUIFW-page-6 &gt; div &gt; div.views-exposed-form &gt; div.views-exposed-widgets.clear-block &gt; div.views-exposed-widget.views-widget-filter-title &gt; div.views-widget &gt; #edit-title-wrapper &gt; #edit-title</td>
+	<td>id=edit-title</td>
 	<td>Athlete A</td>
 </tr>
 <tr>
 	<td>clickAndWait</td>
-	<td>id=edit-submit-athlete-search-v-newUIFW</td>
+	<td>id=edit-submit-athlete-search</td>
 	<td></td>
 </tr>
 <tr>
