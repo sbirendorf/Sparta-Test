@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head profile="http://selenium-ide.openqa.org/profiles/test-case">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<link rel="selenium.base" href="http://penn.spartatrac.com/" />
+<link rel="selenium.base" href="http://spartadev.spartascience.com/" />
 <title>New Test</title>
 </head>
 <body>
@@ -333,8 +333,8 @@
 </tr>
 <!--verify Group A-->
 <tr>
-	<td>clickAndWait</td>
-	<td>id=dhtml_menu-54165</td>
+	<td>open</td>
+	<td>/manage_groups</td>
 	<td></td>
 </tr>
 <tr>
@@ -397,15 +397,10 @@
 	<td>Group A</td>
 	<td></td>
 </tr>
-<tr>
-	<td>open</td>
-	<td>/content/atc-aaa</td>
-	<td></td>
-</tr>
 <!--Verify Group B-->
 <tr>
-	<td>clickAndWait</td>
-	<td>id=dhtml_menu-54165</td>
+	<td>open</td>
+	<td>/manage_groups</td>
 	<td></td>
 </tr>
 <tr>
@@ -465,8 +460,8 @@
 </tr>
 <!--Verify Thresholds Team-->
 <tr>
-	<td>clickAndWait</td>
-	<td>id=dhtml_menu-54478</td>
+	<td>open</td>
+	<td>manage_meta_facts</td>
 	<td></td>
 </tr>
 <tr>
@@ -480,8 +475,18 @@
 	<td></td>
 </tr>
 <tr>
+	<td>type</td>
+	<td>css=#views-exposed-form-manage-meta-facts-page-1 &gt; div &gt; div.views-exposed-form &gt; div.views-exposed-widgets.clear-block &gt; div.views-exposed-widget.views-widget-filter-title &gt; div.views-widget &gt; #edit-title-wrapper &gt; #edit-title</td>
+	<td>AAAAAThresholds Team</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=edit-submit-manage-meta-facts</td>
+	<td></td>
+</tr>
+<tr>
 	<td>clickAndWait</td>
-	<td>css=tr.even &gt; td.views-field.views-field-edit-node &gt; a</td>
+	<td>link=edit</td>
 	<td></td>
 </tr>
 <tr>
@@ -541,8 +546,8 @@
 </tr>
 <!--Verify Threshold Individual-->
 <tr>
-	<td>clickAndWait</td>
-	<td>id=dhtml_menu-54478</td>
+	<td>open</td>
+	<td>/manage_meta_facts</td>
 	<td></td>
 </tr>
 <tr>
@@ -551,8 +556,18 @@
 	<td></td>
 </tr>
 <tr>
+	<td>type</td>
+	<td>css=#views-exposed-form-manage-meta-facts-page-1 &gt; div &gt; div.views-exposed-form &gt; div.views-exposed-widgets.clear-block &gt; div.views-exposed-widget.views-widget-filter-title &gt; div.views-widget &gt; #edit-title-wrapper &gt; #edit-title</td>
+	<td>AAAAThreshold Individual</td>
+</tr>
+<tr>
 	<td>clickAndWait</td>
-	<td>xpath=(//a[contains(text(),'edit')])[3]</td>
+	<td>id=edit-submit-manage-meta-facts</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=edit</td>
 	<td></td>
 </tr>
 <tr>
@@ -612,8 +627,8 @@
 </tr>
 <!--Verify Calculated Fact-->
 <tr>
-	<td>clickAndWait</td>
-	<td>id=dhtml_menu-54478</td>
+	<td>open</td>
+	<td>/manage_meta_facts</td>
 	<td></td>
 </tr>
 <tr>
@@ -622,8 +637,28 @@
 	<td></td>
 </tr>
 <tr>
+	<td>type</td>
+	<td>css=#views-exposed-form-manage-meta-facts-page-1 &gt; div &gt; div.views-exposed-form &gt; div.views-exposed-widgets.clear-block &gt; div.views-exposed-widget.views-widget-filter-title &gt; div.views-widget &gt; #edit-title-wrapper &gt; #edit-title</td>
+	<td>AAACalculated</td>
+</tr>
+<tr>
 	<td>clickAndWait</td>
-	<td>xpath=(//a[contains(text(),'edit')])[4]</td>
+	<td>id=edit-submit-manage-meta-facts</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=edit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>SUM</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>AAAAThreshold Individual</td>
 	<td></td>
 </tr>
 <tr>
@@ -638,16 +673,6 @@
 </tr>
 <tr>
 	<td>verifyTextPresent</td>
-	<td>SUM</td>
-	<td></td>
-</tr>
-<tr>
-	<td>verifyTextPresent</td>
-	<td>Minutes Played</td>
-	<td></td>
-</tr>
-<tr>
-	<td>verifyTextPresent</td>
 	<td>14</td>
 	<td></td>
 </tr>
@@ -658,13 +683,23 @@
 </tr>
 <!--Verify Dashboard A-->
 <tr>
-	<td>clickAndWait</td>
-	<td>id=dhtml_menu-55256</td>
+	<td>open</td>
+	<td>manage_dashboard_layout</td>
 	<td></td>
 </tr>
 <tr>
 	<td>verifyTextPresent</td>
 	<td>Dashboard A</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>css=#views-exposed-form-manage-dashboard-layout-page-1 &gt; div &gt; div.views-exposed-form &gt; div.views-exposed-widgets.clear-block &gt; div.views-exposed-widget.views-widget-filter-title &gt; div.views-widget &gt; #edit-title-wrapper &gt; #edit-title</td>
+	<td>Dashboard A</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=edit-submit-manage-dashboard-layout</td>
 	<td></td>
 </tr>
 <tr>
@@ -684,12 +719,37 @@
 </tr>
 <tr>
 	<td>verifyTextPresent</td>
-	<td>Sport Coach</td>
+	<td>Strength Coach</td>
 	<td></td>
 </tr>
 <tr>
 	<td>verifyTextPresent</td>
 	<td>Group A</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>empty_fact</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>AAAAAAEmpty</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>AAAAAThresholds Team</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>AAAAThreshold Individual</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>AAACalculated</td>
 	<td></td>
 </tr>
 <tr>
@@ -704,8 +764,8 @@
 </tr>
 <!--Verify Test Boundary-->
 <tr>
-	<td>clickAndWait</td>
-	<td>id=dhtml_menu-92599</td>
+	<td>open</td>
+	<td>/manage_boundary_by_name_vbo</td>
 	<td></td>
 </tr>
 <tr>
