@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://spartadev.spartascience.com" />
+<title>New Test</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">New Test</td></tr>
+</thead><tbody>
+<!--Create Need-->
+<tr>
+	<td>open</td>
+	<td>/movement</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Create Need</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=need_form_title</td>
+	<td>1Test Need</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=end_level</td>
+	<td>2.3</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>3000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=select_exe0</td>
+	<td>label=Squat Back</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>3000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=select_volume0</td>
+	<td>label=1Test Volume</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>3000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=select_intensity0</td>
+	<td>label=1Squat</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//button_clone[@id='button_add_complex']/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>css=#list-item_need1 &gt; div.left_side_need_form &gt; div.control-group_start_phase &gt; div.controls &gt; #level_from</td>
+	<td>3.1</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>css=#list-item_need1 &gt; div.left_side_need_form &gt; div.control-group_end_phase &gt; div.controls &gt; #end_level</td>
+	<td>4.3</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=select_exe1</td>
+	<td>label=Squat Front</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>3000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=select_volume1</td>
+	<td>label=1Test Volume</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>3000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=select_intensity1</td>
+	<td>label=1Squat</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=button_submit</td>
+	<td></td>
+</tr>
+<!--Read Need-->
+<tr>
+	<td>open</td>
+	<td>/movement</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>css=#views-exposed-form-movements-v2-page-5 &gt; div &gt; div.views-exposed-form &gt; div.views-exposed-widgets.clear-block &gt; div.views-exposed-widget.views-widget-filter-title &gt; div.views-widget &gt; #edit-title-wrapper &gt; #edit-title</td>
+	<td>1Test Need</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=edit-submit-movements-v2</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>7000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>1Test Need</td>
+	<td></td>
+</tr>
+<!--Delete Need-->
+<tr>
+	<td>open</td>
+	<td>/movement</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>css=#views-exposed-form-movements-v2-page-5 &gt; div &gt; div.views-exposed-form &gt; div.views-exposed-widgets.clear-block &gt; div.views-exposed-widget.views-widget-filter-title &gt; div.views-widget &gt; #edit-title-wrapper &gt; #edit-title</td>
+	<td>1Test Need</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=edit-submit-movements-v2</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>7000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=i.glyphicon.icon-trash</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=#node-delete-confirm &gt; div &gt; div.container-inline &gt; #edit-submit</td>
+	<td></td>
+</tr>
+<!--Verify Deleted-->
+<tr>
+	<td>open</td>
+	<td>/movement</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextNotPresent</td>
+	<td>1Test Need</td>
+	<td></td>
+</tr>
+</tr>
+</tbody></table>
+</body>
+</html>

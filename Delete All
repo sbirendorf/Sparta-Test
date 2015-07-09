@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head profile="http://selenium-ide.openqa.org/profiles/test-case">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<link rel="selenium.base" href="http://academia.spartascience.com/" />
+<link rel="selenium.base" href="http://spartadev.spartascience.com/" />
 <title>Delete Boundary</title>
 </head>
 <body>
@@ -115,10 +115,25 @@
 	<td>css=#node-delete-confirm &gt; div &gt; div.container-inline &gt; #edit-submit</td>
 	<td></td>
 </tr>
-<!--Delete Meta Facts (same code for all Meta Facts)-->
+<!--Delete Meta Facts-->
 <tr>
 	<td>open</td>
 	<td>/manage_meta_facts</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>css=#views-exposed-form-manage-meta-facts-page-1 &gt; div &gt; div.views-exposed-form &gt; div.views-exposed-widgets.clear-block &gt; div.views-exposed-widget.views-widget-filter-title &gt; div.views-widget &gt; #edit-title-wrapper &gt; #edit-title</td>
+	<td>AAAAAAEmpty</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=edit-submit-manage-meta-facts</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>7000</td>
 	<td></td>
 </tr>
 <tr>
@@ -132,8 +147,18 @@
 	<td></td>
 </tr>
 <tr>
-	<td>open</td>
-	<td>/manage_meta_facts</td>
+	<td>type</td>
+	<td>css=#views-exposed-form-manage-meta-facts-page-1 &gt; div &gt; div.views-exposed-form &gt; div.views-exposed-widgets.clear-block &gt; div.views-exposed-widget.views-widget-filter-title &gt; div.views-widget &gt; #edit-title-wrapper &gt; #edit-title</td>
+	<td>AAAAAThresholds Team</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=edit-submit-manage-meta-facts</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>7000</td>
 	<td></td>
 </tr>
 <tr>
@@ -147,8 +172,18 @@
 	<td></td>
 </tr>
 <tr>
-	<td>open</td>
-	<td>/manage_meta_facts</td>
+	<td>type</td>
+	<td>css=#views-exposed-form-manage-meta-facts-page-1 &gt; div &gt; div.views-exposed-form &gt; div.views-exposed-widgets.clear-block &gt; div.views-exposed-widget.views-widget-filter-title &gt; div.views-widget &gt; #edit-title-wrapper &gt; #edit-title</td>
+	<td>AAAAThreshold Individual</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=edit-submit-manage-meta-facts</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>7000</td>
 	<td></td>
 </tr>
 <tr>
@@ -162,8 +197,18 @@
 	<td></td>
 </tr>
 <tr>
-	<td>open</td>
-	<td>/manage_meta_facts</td>
+	<td>type</td>
+	<td>css=#views-exposed-form-manage-meta-facts-page-1 &gt; div &gt; div.views-exposed-form &gt; div.views-exposed-widgets.clear-block &gt; div.views-exposed-widget.views-widget-filter-title &gt; div.views-widget &gt; #edit-title-wrapper &gt; #edit-title</td>
+	<td>AAACalculated</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=edit-submit-manage-meta-facts</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>7000</td>
 	<td></td>
 </tr>
 <tr>
@@ -271,7 +316,7 @@
 </tr>
 <tr>
 	<td>pause</td>
-	<td>7000</td>
+	<td>9000</td>
 	<td></td>
 </tr>
 <tr>

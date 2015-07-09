@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://spartadev.spartascience.com/" />
+<title>New Test</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">New Test</td></tr>
+</thead><tbody>
+<!--Create Landing-->
+<tr>
+	<td>open</td>
+	<td>/node/add/landing</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=edit-field-la-athlete-id-uid-uid</td>
+	<td>label=Athlete A - aathlete</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-field-la-date-0-value-date</td>
+	<td>2015-04-0714:11</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-field-la-weight-0-value</td>
+	<td>184.83</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=edit-field-la-extremity-value</td>
+	<td>label=Lower</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-field-la-tts-left-0-value</td>
+	<td>0</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-field-la-tts-right-0-value</td>
+	<td>0</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-field-la-rel-impulse-left-0-value</td>
+	<td>0</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-field-la-rel-impulse-right-0-value</td>
+	<td>0</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-field-la-rel-impulse-left-0-value</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-field-la-peak-force-left-0-value</td>
+	<td>2.43892</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-field-la-peak-force-right-0-value</td>
+	<td>2.82129</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-field-la-result-vect-ts-left-0-value</td>
+	<td>1.03608</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-field-la-result-vect-ts-right-0-value</td>
+	<td>1.49841</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-field-la-index-left-0-value</td>
+	<td>2.36235</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-field-la-index-right-0-value</td>
+	<td>1.88969</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=div.node-form &gt; #edit-submit</td>
+	<td></td>
+</tr>
+<!--Verify Landing-->
+<tr>
+	<td>open</td>
+	<td>/manage_landings</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>css=#views-exposed-form-manage-landings-vbo-page-2 &gt; div &gt; div.views-exposed-form &gt; div.views-exposed-widgets.clear-block &gt; div.views-exposed-widget.views-widget-filter-title &gt; div.views-widget &gt; #edit-title-wrapper &gt; #edit-title</td>
+	<td>Athlete A</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=edit-date-filter-value-year</td>
+	<td>label=2014</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=edit-submit-manage-landings-vbo</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>aathlete</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>184.83</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>Lower</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>2.43892</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>2.82129</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>2.36235</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>1.88969</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>1.03608</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>1.49841</td>
+	<td></td>
+</tr>
+<!--Delete Landing-->
+<tr>
+	<td>open</td>
+	<td>/manage_landings</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>css=#views-exposed-form-manage-landings-vbo-page-2 &gt; div &gt; div.views-exposed-form &gt; div.views-exposed-widgets.clear-block &gt; div.views-exposed-widget.views-widget-filter-title &gt; div.views-widget &gt; #edit-title-wrapper &gt; #edit-title</td>
+	<td>Athlete A</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=edit-date-filter-value-year</td>
+	<td>label=2014</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=edit-submit-manage-landings-vbo</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=span.date-display-single</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>7000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Edit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=edit-delete</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=#node-delete-confirm &gt; div &gt; div.container-inline &gt; #edit-submit</td>
+	<td></td>
+</tr>
+<!--Verify Landing Delete-->
+<tr>
+	<td>open</td>
+	<td>/manage_landings</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>css=#views-exposed-form-manage-landings-vbo-page-2 &gt; div &gt; div.views-exposed-form &gt; div.views-exposed-widgets.clear-block &gt; div.views-exposed-widget.views-widget-filter-title &gt; div.views-widget &gt; #edit-title-wrapper &gt; #edit-title</td>
+	<td>Athlete A</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=edit-date-filter-value-year</td>
+	<td>label=2014</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=edit-submit-manage-landings-vbo</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextNotPresent</td>
+	<td>aathlete</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

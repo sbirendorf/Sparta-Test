@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://spartadev.spartascience.com" />
+<title>New Test</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">New Test</td></tr>
+</thead><tbody>
+<!--Create Template-->
+<tr>
+	<td>open</td>
+	<td>/movement</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=quicktabs-tab-movement_v2_view-4</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>7000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/node/add/exercise-template</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-title</td>
+	<td>1Test Template</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=edit-group-et-complex1-0-field-et-exercise-c1-nid-nid</td>
+	<td>label=Squat Back - Exercise</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-field-et-time-complex1-0-value</td>
+	<td>4</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-field-et-time-complex2-0-value</td>
+	<td>4</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=edit-group-et-complex2-0-field-et-exercise-c2-nid-nid</td>
+	<td>label=Squat Front - Exercise</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=div.node-form &gt; #edit-submit</td>
+	<td></td>
+</tr>
+<!--Read Template-->
+<tr>
+	<td>open</td>
+	<td>/movement</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=quicktabs-tab-movement_v2_view-4</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>7000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>css=#views-exposed-form-manage-templates-page-1 &gt; div &gt; div.views-exposed-form &gt; div.views-exposed-widgets.clear-block &gt; div.views-exposed-widget.views-widget-filter-title &gt; div.views-widget &gt; #edit-title-wrapper &gt; #edit-title</td>
+	<td>1Test Template</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=edit-submit-manage-templates</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>7000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=i.glyphicon.icon-search</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>1Test Template</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>4</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>Squat Back</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>Complex 1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>Complex 2</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>Squat Front</td>
+	<td></td>
+</tr>
+<!--Delete Template-->
+<tr>
+	<td>open</td>
+	<td>/movement</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=quicktabs-tab-movement_v2_view-4</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>7000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>css=#views-exposed-form-manage-templates-page-1 &gt; div &gt; div.views-exposed-form &gt; div.views-exposed-widgets.clear-block &gt; div.views-exposed-widget.views-widget-filter-title &gt; div.views-widget &gt; #edit-title-wrapper &gt; #edit-title</td>
+	<td>1Test Template</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=edit-submit-manage-templates</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>9000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//div[@id='quicktabs_tabpage_movement_v2_view_4']/div/table/tbody/tr/td[6]/a/i</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=#node-delete-confirm &gt; div &gt; div.container-inline &gt; #edit-submit</td>
+	<td></td>
+</tr>
+<!--Verify Template Deleted-->
+<tr>
+	<td>open</td>
+	<td>/movement</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=quicktabs-tab-movement_v2_view-4</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>css=#views-exposed-form-manage-templates-page-1 &gt; div &gt; div.views-exposed-form &gt; div.views-exposed-widgets.clear-block &gt; div.views-exposed-widget.views-widget-filter-title &gt; div.views-widget &gt; #edit-title-wrapper &gt; #edit-title</td>
+	<td>1Test Template</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=edit-submit-manage-templates</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>7000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>No matching entries.</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

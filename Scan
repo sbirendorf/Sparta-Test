@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://rfu.spartatrac.com/" />
+<title>New Test</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">New Test</td></tr>
+</thead><tbody>
+<!--Create Scan for athlete B-->
+<tr>
+	<td>open</td>
+	<td>/node/add/scan-processed</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-title</td>
+	<td>scantest</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-field-st-test-name-0-value</td>
+	<td>Vertical Jump</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-field-st-date-0-value-date</td>
+	<td>2015-07-0116:39:22</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-field-st-athlete-0-uid-uid</td>
+	<td>bathlete</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=edit-field-st-weight-0-value</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-field-st-weight-0-value</td>
+	<td>200.92</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-field-st-vertical-jump-0-value</td>
+	<td>.1753867</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=edit-field-st-ath-condition-value-Fresh</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-field-st-ecc-rate-vert-frc-0-value</td>
+	<td>20118.10</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-field-st-ecc-vert-impulse-0-value</td>
+	<td>0</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-field-st-con-v-impulse-0-value</td>
+	<td>3.35518</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-field-st-avg-v-con-force-0-value</td>
+	<td>21.8233</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=div.node-form &gt; #edit-submit</td>
+	<td></td>
+</tr>
+<!--Verify Scan Created (not yet verify present in dashboard)-->
+<tr>
+	<td>open</td>
+	<td>/content/scantest</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>scantest</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>Vertical Jump</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>07/01/2015 - 4:39pm</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>bathlete</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>200.92lbs</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>0.1753867</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>Fresh</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>20118.10(N/s)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>0N*s/kg</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>3.35518N*s/kg</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>21.8233N/kg</td>
+	<td></td>
+</tr>
+<!--Delete Scan-->
+<tr>
+	<td>open</td>
+	<td>/content/scantest</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Edit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=edit-delete</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=#node-delete-confirm &gt; div &gt; div.container-inline &gt; #edit-submit</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

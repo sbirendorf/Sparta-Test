@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://spartadev.spartascience.com/" />
+<title>New Test</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">New Test</td></tr>
+</thead><tbody>
+<!--Create Volume-->
+<tr>
+	<td>open</td>
+	<td>/create_volume</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-volume-name</td>
+	<td>1Test Volume</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-detail-1-1-1-b</td>
+	<td>3</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=button[type=&quot;button&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//button[@type='button'])[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=#msparta-movement-info-form-volume &gt; div &gt; #edit-submit</td>
+	<td></td>
+</tr>
+<!--Read Volume-->
+<tr>
+	<td>open</td>
+	<td>/movement</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=quicktabs-tab-movement_v2_view-2</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>7000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>css=#views-exposed-form-movements-v2-page-2 &gt; div &gt; div.views-exposed-form &gt; div.views-exposed-widgets.clear-block &gt; div.views-exposed-widget.views-widget-filter-title &gt; div.views-widget &gt; #edit-title-wrapper &gt; #edit-title</td>
+	<td>1Test Volume</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=#views-exposed-form-movements-v2-page-2 &gt; div &gt; div.views-exposed-form &gt; div.views-exposed-widgets.clear-block &gt; div.views-exposed-widget.views-submit-button &gt; #edit-submit-movements-v2</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>7000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>1Test Volume</td>
+	<td></td>
+</tr>
+<!--Delete Volume-->
+<tr>
+	<td>open</td>
+	<td>/movement</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=quicktabs-tab-movement_v2_view-2</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>7000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>css=#views-exposed-form-movements-v2-page-2 &gt; div &gt; div.views-exposed-form &gt; div.views-exposed-widgets.clear-block &gt; div.views-exposed-widget.views-widget-filter-title &gt; div.views-widget &gt; #edit-title-wrapper &gt; #edit-title</td>
+	<td>1Test Volume</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=#views-exposed-form-movements-v2-page-2 &gt; div &gt; div.views-exposed-form &gt; div.views-exposed-widgets.clear-block &gt; div.views-exposed-widget.views-submit-button &gt; #edit-submit-movements-v2</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>7000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=td.views-field.views-field-nid-1 &gt; a &gt; i.glyphicon.icon-trash</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=strong</td>
+	<td></td>
+</tr>
+<!--Verify Volume Deleted-->
+<tr>
+	<td>open</td>
+	<td>/movement</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=quicktabs-tab-movement_v2_view-2</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextNotPresent</td>
+	<td>1Test Volume</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

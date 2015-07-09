@@ -1,0 +1,620 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://spartadev.spartascience.com" />
+<title>New Test</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">New Test</td></tr>
+</thead><tbody>
+<!--Create Exercises-->
+<tr>
+	<td>open</td>
+	<td>/movement</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/node/add/lesson-v2</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-title</td>
+	<td>Squat Front</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=edit-field-ls-lower-upper-level-v2-value-lower</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=div.node-form &gt; #edit-submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/node/add/lesson-v2</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-title</td>
+	<td>Squat Back</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=edit-field-ls-lower-upper-level-v2-value-lower</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=div.node-form &gt; #edit-submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/create_volume</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-volume-name</td>
+	<td>1Test Volume</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-detail-1-1-1-b</td>
+	<td>3</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=button[type=&quot;button&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//button[@type='button'])[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=#msparta-movement-info-form-volume &gt; div &gt; #edit-submit</td>
+	<td></td>
+</tr>
+<!--Create 1RM Test-->
+<tr>
+	<td>open</td>
+	<td>/node/add/test-method</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-title</td>
+	<td>1Test 1RM</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=edit-field-tm-athlete-id-uid-uid</td>
+	<td>label=Athlete A - aathlete</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=edit-field-tm-date-tested-0-value-datepicker-popup-0</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=2</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=edit-field-tm-1rm-exercise-nid-nid</td>
+	<td>label=Squat Front - Exercise v2</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-field-tm-1rm-value-0-value</td>
+	<td>100</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=div.node-form &gt; #edit-submit</td>
+	<td></td>
+</tr>
+<!--Create Intensity Body Weight-->
+<tr>
+	<td>open</td>
+	<td>/movement</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=quicktabs-tab-movement_v2_view-3</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>7000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Create intensity</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-intensity-name</td>
+	<td>1Squat</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-goals-1-1-1-m</td>
+	<td>100</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=button[type=&quot;button&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//button[@type='button'])[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=#msparta-movement-info-form-intensity &gt; div &gt; #edit-submit</td>
+	<td></td>
+</tr>
+<!--Create Intensity 1RM-->
+<tr>
+	<td>open</td>
+	<td>/movement</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=quicktabs-tab-movement_v2_view-3</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//div[@id='quicktabs_tabpage_movement_v2_view_3']/div/div/p/a/strong</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-intensity-name</td>
+	<td>1RM Test</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=edit-intensity-load-base</td>
+	<td>label=1RM</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=option[value=&quot;1RM&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=edit-intensity-1rm-ex-ref</td>
+	<td>label=Squat Front</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-intensity-1rm-ex-percent</td>
+	<td>50</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-goals-1-1-1-m</td>
+	<td>100</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=button[type=&quot;button&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//button[@type='button'])[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=#msparta-movement-info-form-intensity &gt; div &gt; #edit-submit</td>
+	<td></td>
+</tr>
+<!--Create Intensity Absolute-->
+<tr>
+	<td>open</td>
+	<td>/movement</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=quicktabs-tab-movement_v2_view-3</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//div[@id='quicktabs_tabpage_movement_v2_view_3']/div/div/p/a/strong</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-intensity-name</td>
+	<td>1Test Absolute</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=edit-intensity-load-base</td>
+	<td>label=Absolute</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-goals-1-1-1-m</td>
+	<td>100</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=button[type=&quot;button&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//button[@type='button'])[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=#msparta-movement-info-form-intensity &gt; div &gt; #edit-submit</td>
+	<td></td>
+</tr>
+<!--Create Need-->
+<tr>
+	<td>open</td>
+	<td>/movement</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Create Need</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=need_form_title</td>
+	<td>1Test Need</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=end_level</td>
+	<td>1.2</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>3000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=select_exe0</td>
+	<td>label=Squat Back</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>3000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=select_volume0</td>
+	<td>label=1Test Volume</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>3000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=select_intensity0</td>
+	<td>label=1Squat</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//button_clone[@id='button_add_complex']/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>css=#list-item_need1 &gt; div.left_side_need_form &gt; div.control-group_start_phase &gt; div.controls &gt; #level_from</td>
+	<td>2.1</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>css=#list-item_need1 &gt; div.left_side_need_form &gt; div.control-group_end_phase &gt; div.controls &gt; #end_level</td>
+	<td>4.3</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=select_exe1</td>
+	<td>label=Squat Front</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>3000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=select_volume1</td>
+	<td>label=1Test Volume</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>3000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=select_intensity1</td>
+	<td>label=1Squat</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=button_submit</td>
+	<td></td>
+</tr>
+<!--Create Need2-->
+<tr>
+	<td>open</td>
+	<td>/movement</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=strong</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=need_form_title</td>
+	<td>1Need 2</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=end_level</td>
+	<td>1.2</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>4000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=select_exe0</td>
+	<td>label=Squat Back</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>4000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=select_volume0</td>
+	<td>label=1Test Volume</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=select_intensity0</td>
+	<td>label=1RM Test</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//button_clone[@id='button_add_complex']/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>css=#list-item_need1 &gt; div.left_side_need_form &gt; div.control-group_start_phase &gt; div.controls &gt; #level_from</td>
+	<td>2.1</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>css=#list-item_need1 &gt; div.left_side_need_form &gt; div.control-group_end_phase &gt; div.controls &gt; #end_level</td>
+	<td>4.3</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=select_exe1</td>
+	<td>label=Squat Front</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>4000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=select_volume1</td>
+	<td>label=1Test Volume</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>4000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=select_intensity1</td>
+	<td>label=1Test Absolute</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=button_submit</td>
+	<td></td>
+</tr>
+<!--Create Template-->
+<tr>
+	<td>open</td>
+	<td>/movement</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=quicktabs-tab-movement_v2_view-4</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>7000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/node/add/exercise-template</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-title</td>
+	<td>1Test Template</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=edit-group-et-complex1-0-field-et-exercise-c1-nid-nid</td>
+	<td>label=1Need 2 - Need</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-field-et-time-complex1-0-value</td>
+	<td>4</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-field-et-time-complex2-0-value</td>
+	<td>4</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=edit-group-et-complex2-0-field-et-exercise-c2-nid-nid</td>
+	<td>label=1Test Need - Need</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=div.node-form &gt; #edit-submit</td>
+	<td></td>
+</tr>
+<!--Create Schedule-->
+<tr>
+	<td>open</td>
+	<td>/movement</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=quicktabs-tab-movement_v2_view-5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>7000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/node/add/assign-schedule</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-title</td>
+	<td>1Test Schedule</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=edit-field-as-active-date-0-value-datepicker-popup-0</td>
+	<td>7/6/15</td>
+</tr>
+<tr>
+	<td>storeEval</td>
+	<td>new Date().getMonth()+2</td>
+	<td>NextMonth</td>
+</tr>
+<tr>
+	<td>storeEval</td>
+	<td>new Date().getDay()</td>
+	<td>Day</td>
+</tr>
+<tr>
+	<td>storeEval</td>
+	<td>new Date().getFullYear()-2000</td>
+	<td>Year</td>
+</tr>
+<tr>
+	<td>storeEval</td>
+	<td>${NextMonth}+'/'+${Day}+'/'+${Year}</td>
+	<td>Date</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-field-as-active-date-0-value2-datepicker-popup-0</td>
+	<td>${Date}</td>
+</tr>
+<tr>
+	<td>addSelection</td>
+	<td>id=field_as_assign_to</td>
+	<td>label=Athlete A - aathlete</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Add</td>
+	<td></td>
+</tr>
+<tr>
+	<td>addSelection</td>
+	<td>id=field_as_assign_to</td>
+	<td>label=Athlete B - bathlete</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Add</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=edit-group-as-templates-assign-0-field-as-exercise-temp-nid-nid</td>
+	<td>label=1Test Template</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=edit-group-as-templates-assign-0-field-as-template-repeats-value</td>
+	<td>label=Sunday</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=edit-field-as-lin-period-value</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=div.node-form &gt; #edit-submit</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

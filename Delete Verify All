@@ -230,7 +230,7 @@
 <!--Logout-->
 <tr>
 	<td>clickAndWait</td>
-	<td>id=dhtml_menu-29506</td>
+	<td>link=Logout</td>
 	<td></td>
 </tr>
 </tbody></table>
