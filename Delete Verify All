@@ -164,6 +164,26 @@
 	<td>AAACalculated</td>
 	<td></td>
 </tr>
+<tr>
+	<td>verifyTextNotPresent</td>
+	<td>AACount</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextNotPresent</td>
+	<td>AAInstance Avg</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextNotPresent</td>
+	<td>AADaily Avg Test</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextNotPresent</td>
+	<td>AATSB</td>
+	<td></td>
+</tr>
 <!--Verify Dashboard-->
 <tr>
 	<td>open</td>
@@ -225,6 +245,95 @@
 <tr>
 	<td>verifyTextNotPresent</td>
 	<td>bathlete</td>
+	<td></td>
+</tr>
+<!--Verify Landing Delete-->
+<tr>
+	<td>open</td>
+	<td>/manage_landings</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>css=#views-exposed-form-manage-landings-vbo-page-2 &gt; div &gt; div.views-exposed-form &gt; div.views-exposed-widgets.clear-block &gt; div.views-exposed-widget.views-widget-filter-title &gt; div.views-widget &gt; #edit-title-wrapper &gt; #edit-title</td>
+	<td>Athlete A</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=edit-date-filter-value-year</td>
+	<td>label=2014</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=edit-submit-manage-landings-vbo</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextNotPresent</td>
+	<td>aathlete</td>
+	<td></td>
+</tr>
+<!--Verify Injury Deleted-->
+<tr>
+	<td>open</td>
+	<td>/injury_open_view</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>css=#views-exposed-form-v-injury-info-page-3 &gt; div &gt; div.views-exposed-form &gt; div.views-exposed-widgets.clear-block &gt; div.views-exposed-widget.views-widget-filter-title &gt; div.views-widget &gt; #edit-title-wrapper &gt; #edit-title</td>
+	<td>Athlete A</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=edit-submit-v-injury-info</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>No injury reports found</td>
+	<td></td>
+</tr>
+<!--Verify Wellness Deleted-->
+<tr>
+	<td>open</td>
+	<td>/manage_wellness_vbo</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>css=#views-exposed-form-manage-wellness-vbo-page-1 &gt; div &gt; div.views-exposed-form &gt; div.views-exposed-widgets.clear-block &gt; div.views-exposed-widget.views-widget-filter-title &gt; div.views-widget &gt; #edit-title-wrapper &gt; #edit-title</td>
+	<td>Athlete A</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=edit-submit-manage-wellness-vbo</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextNotPresent</td>
+	<td>aathlete</td>
+	<td></td>
+</tr>
+<!--Verify Balance Deleted-->
+<tr>
+	<td>open</td>
+	<td>/manage_balance</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>css=#views-exposed-form-manage-balance-vbo-page-1 &gt; div &gt; div.views-exposed-form &gt; div.views-exposed-widgets.clear-block &gt; div.views-exposed-widget.views-widget-filter-title &gt; div.views-widget &gt; #edit-title-wrapper &gt; #edit-title</td>
+	<td>Athlete A</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=edit-submit-manage-balance-vbo</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextNotPresent</td>
+	<td>aathlete</td>
 	<td></td>
 </tr>
 <!--Logout-->

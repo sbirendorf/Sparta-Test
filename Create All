@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head profile="http://selenium-ide.openqa.org/profiles/test-case">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<link rel="selenium.base" href="http://scarlets.spartatrac.com/" />
+<link rel="selenium.base" href="http://spartadev.spartascience.com/" />
 <title>Penn Login</title>
 </head>
 <body>
@@ -587,7 +587,7 @@
 	<td>css=div.node-form &gt; #edit-submit</td>
 	<td></td>
 </tr>
-<!--Create Calculated MetaFact-->
+<!--Create Calculated MetaFact (Sum)-->
 <tr>
 	<td>open</td>
 	<td>/athlete_listing_a</td>
@@ -617,6 +617,235 @@
 	<td>type</td>
 	<td>id=edit-field-mf-day-offset-0-value</td>
 	<td>21</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=div.node-form &gt; #edit-submit</td>
+	<td></td>
+</tr>
+<!--Create Daily Avg MetaFact-->
+<tr>
+	<td>open</td>
+	<td>node/add/meta-fact</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-title</td>
+	<td>AADaily Avg Test</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=edit-group-mf-thresholds-0-field-mf-athlete-id-uid-uid</td>
+	<td>label=Athlete A - aathlete</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-group-mf-thresholds-0-field-mf-minimum-value</td>
+	<td>5</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-group-mf-thresholds-0-field-mf-maximum-value</td>
+	<td>10</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-group-mf-thresholds-0-field-mf-highlight-min-value</td>
+	<td>#f32628</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-group-mf-thresholds-0-field-mf-highlight-max-value</td>
+	<td>#3cf132</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=edit-field-mf-type-operation-value</td>
+	<td>label=DAILY-AVG</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=edit-field-mf-fact-operate-nid-nid</td>
+	<td>label=AAAAThreshold Individual</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-field-mf-day-offset-0-value</td>
+	<td>7</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=div.node-form &gt; #edit-submit</td>
+	<td></td>
+</tr>
+<!--Create Instance MF-->
+<tr>
+	<td>open</td>
+	<td>node/add/meta-fact</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=edit-group-mf-thresholds-0-field-mf-athlete-id-uid-uid</td>
+	<td>label=Athlete A - aathlete</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-title</td>
+	<td>AAInstance Avg</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-group-mf-thresholds-0-field-mf-minimum-value</td>
+	<td>5</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-group-mf-thresholds-0-field-mf-maximum-value</td>
+	<td>15</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-group-mf-thresholds-0-field-mf-highlight-min-value</td>
+	<td>#f20e0e</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-group-mf-thresholds-0-field-mf-highlight-max-value</td>
+	<td>#3af20d</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-group-mf-thresholds-0-field-mf-zone-value-value</td>
+	<td>10</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-group-mf-thresholds-0-field-mf-zone-variance-value</td>
+	<td>50</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-group-mf-thresholds-0-field-mf-highlight-zone-value</td>
+	<td>#f01ae9</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=edit-group-mf-thresholds-0-field-mf-zone-hlight-type-value-Inside</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=edit-field-mf-type-operation-value</td>
+	<td>label=- None -</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=edit-field-mf-type-operation-value</td>
+	<td>label=INSTANCE-AVG</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=edit-field-mf-fact-operate-nid-nid</td>
+	<td>label=AAAAThreshold Individual</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-field-mf-day-offset-0-value</td>
+	<td>8</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=div.node-form &gt; #edit-submit</td>
+	<td></td>
+</tr>
+<!--Create Count MF-->
+<tr>
+	<td>open</td>
+	<td>/node/add/meta-fact</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-title</td>
+	<td>AACount</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=edit-group-mf-thresholds-0-field-mf-athlete-id-uid-uid</td>
+	<td>label=Athlete A - aathlete</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=edit-field-mf-type-operation-value</td>
+	<td>label=COUNT</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=edit-field-mf-fact-operate-nid-nid</td>
+	<td>label=AAAAThreshold Individual</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-field-mf-day-offset-0-value</td>
+	<td>7</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=div.node-form &gt; #edit-submit</td>
+	<td></td>
+</tr>
+<!--Create TSB MetaFact-->
+<tr>
+	<td>open</td>
+	<td>node/add/meta-fact</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=edit-field-mf-type-operation-value</td>
+	<td>label=TSB</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-title</td>
+	<td>AATSB</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=edit-group-mf-thresholds-0-field-mf-athlete-id-uid-uid</td>
+	<td>label=Athlete A - aathlete</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-group-mf-thresholds-0-field-mf-minimum-value</td>
+	<td>5</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-group-mf-thresholds-0-field-mf-maximum-value</td>
+	<td>25</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-group-mf-thresholds-0-field-mf-highlight-min-value</td>
+	<td>#f33131</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-group-mf-thresholds-0-field-mf-highlight-max-value</td>
+	<td>#23f145</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=edit-field-mf-fact-operate-nid-nid</td>
+	<td>label=AAAAThreshold Individual</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-field-mf-day-offset-0-value</td>
+	<td>7</td>
 </tr>
 <tr>
 	<td>clickAndWait</td>
@@ -891,7 +1120,7 @@
 	<td>id=edit-group-dashboard-layout-gr-3-field-dashboard-layout-fact-nid-nid</td>
 	<td>label=AAAAThreshold Individual</td>
 </tr>
-<!--add calc  fact-->
+<!--add calc(SUM)  fact-->
 <tr>
 	<td>click</td>
 	<td>id=edit-group-dashboard-layout-gr-group-dashboard-layout-gr-add-more</td>
@@ -916,6 +1145,125 @@
 	<td>select</td>
 	<td>id=edit-group-dashboard-layout-gr-4-field-dashboard-layout-fact-nid-nid</td>
 	<td>label=AAACalculated</td>
+</tr>
+<!--add Daily Avg Fact-->
+<tr>
+	<td>click</td>
+	<td>id=edit-group-dashboard-layout-gr-group-dashboard-layout-gr-add-more</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>id=edit-group-dashboard-layout-gr-5-field-dashboard-layout-name-value</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-group-dashboard-layout-gr-5-field-dashboard-layout-name-value</td>
+	<td>AADaily Avg</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=edit-group-dashboard-layout-gr-5-field-dashboard-layout-unique-value</td>
+	<td>label=None</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=edit-group-dashboard-layout-gr-5-field-dashboard-layout-fact-nid-nid</td>
+	<td>label=AADaily Avg Test</td>
+</tr>
+<!--Add Instance Avg Fact-->
+<tr>
+	<td>click</td>
+	<td>id=edit-group-dashboard-layout-gr-group-dashboard-layout-gr-add-more</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>id=edit-group-dashboard-layout-gr-6-field-dashboard-layout-name-value</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>3000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-group-dashboard-layout-gr-6-field-dashboard-layout-name-value</td>
+	<td>AAInstance Avg</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=edit-group-dashboard-layout-gr-6-field-dashboard-layout-unique-value</td>
+	<td>label=None</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=edit-group-dashboard-layout-gr-6-field-dashboard-layout-fact-nid-nid</td>
+	<td>label=AAInstance Avg</td>
+</tr>
+<!--Add Count Fact-->
+<tr>
+	<td>click</td>
+	<td>id=edit-group-dashboard-layout-gr-group-dashboard-layout-gr-add-more</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>id=edit-group-dashboard-layout-gr-7-field-dashboard-layout-name-value</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>3000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-group-dashboard-layout-gr-7-field-dashboard-layout-name-value</td>
+	<td>AACount</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=edit-group-dashboard-layout-gr-7-field-dashboard-layout-unique-value</td>
+	<td>label=None</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=edit-group-dashboard-layout-gr-7-field-dashboard-layout-fact-nid-nid</td>
+	<td>label=AACount</td>
+</tr>
+<!--Add TSB Fact-->
+<tr>
+	<td>click</td>
+	<td>id=edit-group-dashboard-layout-gr-group-dashboard-layout-gr-add-more</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>id=edit-group-dashboard-layout-gr-8-field-dashboard-layout-name-value</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>3000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-group-dashboard-layout-gr-8-field-dashboard-layout-name-value</td>
+	<td>AATSB</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=edit-group-dashboard-layout-gr-8-field-dashboard-layout-unique-value</td>
+	<td>label=None</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=edit-group-dashboard-layout-gr-8-field-dashboard-layout-fact-nid-nid</td>
+	<td>label=AATSB</td>
 </tr>
 <tr>
 	<td>clickAndWait</td>
@@ -967,6 +1315,374 @@
 	<td>type</td>
 	<td>id=edit-field-bo-band-1-color-0-value</td>
 	<td>#52ee2e</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=div.node-form &gt; #edit-submit</td>
+	<td></td>
+</tr>
+<!--Create Event-->
+<tr>
+	<td>open</td>
+	<td>/node/add/event</td>
+	<td></td>
+</tr>
+<!--Create Athlete Goal-->
+<tr>
+	<td>open</td>
+	<td>/node/add/athlete-goals</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-field-ag-goal-date-0-value-datepicker-popup-0</td>
+	<td>07/15/2015</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-field-ag-goal-0-value</td>
+	<td>Test Goal</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=div.node-form &gt; #edit-submit</td>
+	<td></td>
+</tr>
+<!--Create Landing-->
+<tr>
+	<td>open</td>
+	<td>/node/add/landing</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=edit-field-la-athlete-id-uid-uid</td>
+	<td>label=Athlete A - aathlete</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-field-la-date-0-value-date</td>
+	<td>2015-04-0714:11</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-field-la-weight-0-value</td>
+	<td>184.83</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=edit-field-la-extremity-value</td>
+	<td>label=Lower</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-field-la-tts-left-0-value</td>
+	<td>0</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-field-la-tts-right-0-value</td>
+	<td>0</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-field-la-rel-impulse-left-0-value</td>
+	<td>0</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-field-la-rel-impulse-right-0-value</td>
+	<td>0</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-field-la-rel-impulse-left-0-value</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-field-la-peak-force-left-0-value</td>
+	<td>2.43892</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-field-la-peak-force-right-0-value</td>
+	<td>2.82129</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-field-la-result-vect-ts-left-0-value</td>
+	<td>1.03608</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-field-la-result-vect-ts-right-0-value</td>
+	<td>1.49841</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-field-la-index-left-0-value</td>
+	<td>2.36235</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-field-la-index-right-0-value</td>
+	<td>1.88969</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=div.node-form &gt; #edit-submit</td>
+	<td></td>
+</tr>
+<!--Create Injury Athlete A-->
+<tr>
+	<td>open</td>
+	<td>/node/add/injury</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=edit-field-ir-athlete-uid-uid</td>
+	<td>label=Athlete A - aathlete</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=edit-field-ir-injury-date-0-value-datepicker-popup-0</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=2</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=edit-taxonomy-13</td>
+	<td>label=Fracture (Bone)</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=div.node-form &gt; #edit-submit</td>
+	<td></td>
+</tr>
+<!--Create Athlete Wellness-->
+<tr>
+	<td>open</td>
+	<td>/node/add/wellness</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=edit-field-wn-athlete-id-uid-uid</td>
+	<td>label=Athlete A - aathlete</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=edit-field-wn-cold-flu-value-1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=edit-field-wn-appetite-value-1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=edit-field-wn-alterness-value-4</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=edit-field-wn-mood-value-3</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=edit-field-wn-soreness-value-2</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=edit-field-wn-physical-value-5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=edit-field-wn-sleep-restful-value-1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=div.node-form &gt; #edit-submit</td>
+	<td></td>
+</tr>
+<!--Create Scan for athlete B-->
+<tr>
+	<td>open</td>
+	<td>/node/add/scan-processed</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-title</td>
+	<td>scantest</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-field-st-test-name-0-value</td>
+	<td>Vertical Jump</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-field-st-date-0-value-date</td>
+	<td>2015-07-0116:39:22</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-field-st-athlete-0-uid-uid</td>
+	<td>bathlete</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=edit-field-st-weight-0-value</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-field-st-weight-0-value</td>
+	<td>200.92</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-field-st-vertical-jump-0-value</td>
+	<td>.1753867</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=edit-field-st-ath-condition-value-Fresh</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-field-st-ecc-rate-vert-frc-0-value</td>
+	<td>20118.10</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-field-st-ecc-vert-impulse-0-value</td>
+	<td>0</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-field-st-con-v-impulse-0-value</td>
+	<td>3.35518</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-field-st-avg-v-con-force-0-value</td>
+	<td>21.8233</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=div.node-form &gt; #edit-submit</td>
+	<td></td>
+</tr>
+<!--Create Regen for Athlete B-->
+<tr>
+	<td>open</td>
+	<td>/node/add/regen</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=edit-field-rp-athlete-uid-uid</td>
+	<td>label=bathlete</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=edit-field-rg-sleep-value</td>
+	<td>label=9</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=edit-field-rg-flexibility-value-Release-Lower</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=edit-field-rg-flexibility-value-Stretch</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=edit-field-rg-nutrition-value-Protein</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=edit-field-rg-nutrition-value-Hydration</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=div.node-form &gt; #edit-submit</td>
+	<td></td>
+</tr>
+<!--Create Balance Athlete A -->
+<tr>
+	<td>open</td>
+	<td>/node/add/balance</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=edit-field-bal-athlete-id-uid-uid</td>
+	<td>label=Athlete A - aathlete</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=edit-field-bal-date-0-value-year</td>
+	<td>label=2015</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=edit-field-bal-date-0-value-month</td>
+	<td>label=Jul</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=edit-field-bal-date-0-value-day</td>
+	<td>label=15</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=edit-field-bal-date-0-value-hour</td>
+	<td>label=11</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=edit-field-bal-date-0-value-minute</td>
+	<td>label=13</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=edit-field-bal-date-0-value-second</td>
+	<td>label=08</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-field-bal-left-sway-vel-0-value</td>
+	<td>0.138</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-field-bal-right-sway-vel-0-value</td>
+	<td>0.056</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-field-bal-weight-0-value</td>
+	<td>159.04</td>
 </tr>
 <tr>
 	<td>clickAndWait</td>

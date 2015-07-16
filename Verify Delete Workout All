@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://spartadev.spartascience.com/" />
+<title>Verify Delete Workout All</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Verify Delete Workout All</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/movement</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextNotPresent</td>
+	<td>1Need 2</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextNotPresent</td>
+	<td>1Test Need</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=quicktabs-tab-movement_v2_view-5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>css=#views-exposed-form-manage-assign-schedule-page-1 &gt; div &gt; div.views-exposed-form &gt; div.views-exposed-widgets.clear-block &gt; div.views-exposed-widget.views-widget-filter-title &gt; div.views-widget &gt; #edit-title-wrapper &gt; #edit-title</td>
+	<td>1Test Schedule</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=edit-submit-manage-assign-schedule</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>7000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextNotPresent</td>
+	<td>1Test Schedule</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=quicktabs-tab-movement_v2_view-4</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>css=#views-exposed-form-manage-templates-page-1 &gt; div &gt; div.views-exposed-form &gt; div.views-exposed-widgets.clear-block &gt; div.views-exposed-widget.views-widget-filter-title &gt; div.views-widget &gt; #edit-title-wrapper &gt; #edit-title</td>
+	<td>1Test Template</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=edit-submit-manage-templates</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextNotPresent</td>
+	<td>1Test Template</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=quicktabs-tab-movement_v2_view-3</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextNotPresent</td>
+	<td>1RM Test</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextNotPresent</td>
+	<td>1Squat</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextNotPresent</td>
+	<td>1Test Absolute</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=quicktabs-tab-movement_v2_view-2</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextNotPresent</td>
+	<td>1Test Volume</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=quicktabs-tab-movement_v2_view-1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextNotPresent</td>
+	<td>Squat Back Test</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextNotPresent</td>
+	<td>Squat Front Test</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/test_method_athlete_v</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>css=#views-exposed-form-test-method-views-page-1 &gt; div &gt; div.views-exposed-form &gt; div.views-exposed-widgets.clear-block &gt; div.views-exposed-widget.views-widget-filter-title &gt; div.views-widget &gt; #edit-title-wrapper &gt; #edit-title</td>
+	<td>Athlete A</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=edit-submit-test-method-views</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextNotPresent</td>
+	<td>Athlete A</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>
