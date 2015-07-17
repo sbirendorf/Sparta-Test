@@ -373,6 +373,21 @@
 	<td></td>
 </tr>
 <tr>
+	<td>type</td>
+	<td>css=#views-exposed-form-manage-assign-schedule-page-1 &gt; div &gt; div.views-exposed-form &gt; div.views-exposed-widgets.clear-block &gt; div.views-exposed-widget.views-widget-filter-title &gt; div.views-widget &gt; #edit-title-wrapper &gt; #edit-title</td>
+	<td>1Test Schedule</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=edit-submit-manage-assign-schedule</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
 	<td>clickAndWait</td>
 	<td>//div[@id='quicktabs_tabpage_movement_v2_view_5']/div/table[2]/tbody/tr/td[13]/a/i</td>
 	<td></td>
