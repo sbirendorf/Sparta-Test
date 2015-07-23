@@ -1438,6 +1438,12 @@
 	<td>15</td>
 	<td></td>
 </tr>
+<!--Verify Athlete Created Wellness-->
+<tr>
+	<td>verifyTextPresent</td>
+	<td>My back hurts</td>
+	<td></td>
+</tr>
 <!--Verify Scan Created-->
 <tr>
 	<td>open</td>

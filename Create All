@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head profile="http://selenium-ide.openqa.org/profiles/test-case">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<link rel="selenium.base" href="http://texassports.spartatrac.com/" />
+<link rel="selenium.base" href="http://spartadev.spartascience.com/" />
 <title>Penn Login</title>
 </head>
 <body>
@@ -1315,37 +1315,6 @@
 	<td>type</td>
 	<td>id=edit-field-bo-band-1-color-0-value</td>
 	<td>#52ee2e</td>
-</tr>
-<tr>
-	<td>clickAndWait</td>
-	<td>css=div.node-form &gt; #edit-submit</td>
-	<td></td>
-</tr>
-<!--Create Event-->
-<tr>
-	<td>open</td>
-	<td>/node/add/event</td>
-	<td></td>
-</tr>
-<tr>
-	<td>type</td>
-	<td>id=edit-field-ev-opponent-0-value</td>
-	<td>Opponent</td>
-</tr>
-<tr>
-	<td>type</td>
-	<td>id=edit-field-ev-opponent-score-0-value</td>
-	<td>3</td>
-</tr>
-<tr>
-	<td>type</td>
-	<td>id=edit-field-ev-team-0-value</td>
-	<td>Baseball</td>
-</tr>
-<tr>
-	<td>type</td>
-	<td>id=edit-field-ev-team-score-0-value</td>
-	<td>5</td>
 </tr>
 <tr>
 	<td>clickAndWait</td>
